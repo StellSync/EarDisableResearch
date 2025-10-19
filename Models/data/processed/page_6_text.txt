@@ -1,0 +1,30 @@
+WHAT I NEED-as you can see there are different therapy modules to identify swara and wayanjana 
+in words. To make it more interactive they have defined two type of activities. 
+Eg-1st way through playing different words ,2nd way through sentences and identify the specific 
+words (coginitive style exercises-refer page 3 exercise (same thing in different way)) . 
+So from the above two ways I need 2 activities that will finally identify the vowels and consenets 
+that are hard for the patients along with adaptive learning. 
+Better if u can use different algorithm comparison and use most accurate one for the adaptive 
+learning and and research process to check whether gpt model through tocken generation basis 
+approach is better or not.Need clear proof for when choosing specific algorithm or the other way. 
+OUTPUT-Learning curve analysis (improvement across sessions, accuracy, response time), 
+Identification of error patterns (incorrectly heard words, repeated failure) . 
+For each user to do GAM analysis performance graph needed to be drawn for each activity 
+developed for words 
+ 
+**special note-emergency related words for swara and wayanjana should be included in a different 
+activity . for emergency related activitys at the end emergency comprehension score should be 
+given In order to check whether the patient is ready for a emergency situation. 
+Please ask if there is any unclear point. THAT’S FOR WORD LEVEL IDENTIFICATION 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
