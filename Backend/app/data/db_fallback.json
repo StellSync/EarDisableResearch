@@ -1,0 +1,27 @@
+{
+  "users": [],
+  "sessions": [
+    {
+      "id": "3ee62b5a-0677-45e0-9681-1631c5eb1247",
+      "user_id": "testuser",
+      "created_at": "2025-10-20T06:31:49.594678",
+      "device_info": "windows-vs-code"
+    },
+    {
+      "id": "f042dd8c-3a1f-4cf9-9d11-8349861a4a0f",
+      "user_id": "testuser",
+      "created_at": "2025-10-20T06:38:11.968934",
+      "device_info": "windows-vs-code"
+    },
+    {
+      "id": "77eb60af-34dd-4cbf-8f92-b81d466987ae",
+      "user_id": "testuser",
+      "created_at": "2025-10-20T06:39:17.497574",
+      "device_info": "windows-vs-code"
+    }
+  ],
+  "lexicon": [],
+  "audio": [],
+  "responses": [],
+  "analytics": []
+}
