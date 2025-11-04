@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+motor
+pydantic
+gTTS
+pydub
+unidecode
+python-dotenv
+pymongo
