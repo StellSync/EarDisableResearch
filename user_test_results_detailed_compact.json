@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "started_at": "2025-11-01T20:44:58.500361",
+    "exported_at": "2025-11-01T20:45:06.678727",
+    "vowel_sequence": [
+      "a",
+      "u",
+      "ee",
+      "ii",
+      "oo"
+    ],
+    "test_count": 5
+  },
+  "summary": {
+    "a": "heard",
+    "u": "heard",
+    "ee": "heard",
+    "ii": "heard",
+    "oo": "heard"
+  },
+  "presented_docs": [
+    {
+      "_id": "a215f6b0-4d62-4aa6-9986-53f200b424f4",
+      "section": "ක්‍රියාකාරකම-01",
+      "index": "01",
+      "sinhala_word": "පුස්",
+      "singlish": "pus",
+      "main_vowel_name": "u",
+      "audio_path": "swara_audio_cloud\\ක්‍රියාකාරකම-01\\01_පුස්_pus.mp3",
+      "presented": true,
+      "user_events": [
+        {
+          "ts": "2025-11-01T20:45:01.319728",
+          "type": "user_choice",
+          "payload": {
+            "vowel": "u",
+            "role": "primary",
+            "choice": "correct",
+            "presented_doc_id": "a215f6b0-4d62-4aa6-9986-53f200b424f4",
+            "presented_word": "පුස්",
+            "presented_audio": "swara_audio_cloud\\ක්‍රියාකාරකම-01\\01_පුස්_pus.mp3",
+            "chosen_doc_id": "a215f6b0-4d62-4aa6-9986-53f200b424f4"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "8dff9268-204b-4ca6-9e79-0691f0a579a8",
+      "section": "ක්‍රියාකාරකම-01",
+      "index": "08",
+      "sinhala_word": "කේජු",
+      "singlish": "keeju",
+      "main_vowel_name": "ee",
+      "audio_path": "swara_audio_cloud\\ක්‍රියාකාරකම-01\\08_කේජු_keeju.mp3",
+      "presented": true,
+      "user_events": [
+        {
+          "ts": "2025-11-01T20:45:02.150624",
+          "type": "user_choice",
+          "payload": {
+            "vowel": "ee",
+            "role": "primary",
+            "choice": "correct",
+            "presented_doc_id": "8dff9268-204b-4ca6-9e79-0691f0a579a8",
+            "presented_word": "කේජු",
+            "presented_audio": "swara_audio_cloud\\ක්‍රියාකාරකම-01\\08_කේජු_keeju.mp3",
+            "chosen_doc_id": "8dff9268-204b-4ca6-9e79-0691f0a579a8"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "1941ffda-13b5-4cfd-8c54-690315e405be",
+      "section": "ක්‍රියාකාරකම-01",
+      "index": "11",
+      "sinhala_word": "කෝල්",
+      "singlish": "kool",
+      "main_vowel_name": "oo",
+      "audio_path": "swara_audio_cloud\\ක්‍රියාකාරකම-01\\11_කෝල්_kool.mp3",
+      "presented": true,
+      "user_events": [
+        {
+          "ts": "2025-11-01T20:45:04.119009",
+          "type": "user_choice",
+          "payload": {
+            "vowel": "oo",
+            "role": "confirm",
+            "choice": "correct",
+            "presented_doc_id": "1941ffda-13b5-4cfd-8c54-690315e405be",
+            "presented_word": "කෝල්",
+            "presented_audio": "swara_audio_cloud\\ක්‍රියාකාරකම-01\\11_කෝල්_kool.mp3",
+            "chosen_doc_id": "1941ffda-13b5-4cfd-8c54-690315e405be"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "6a7b2a5b-6630-4968-9a71-470632b1dd4c",
+      "section": "ක්‍රියාකාරකම-02",
+      "index": "07",
+      "sinhala_word": "පීසා",
+      "singlish": "piisaa",
+      "main_vowel_name": "ii",
+      "audio_path": "swara_audio_cloud\\ක්‍රියාකාරකම-02\\07_පීසා_piisaa.mp3",
+      "presented": true,
+      "user_events": [
+        {
+          "ts": "2025-11-01T20:45:02.902138",
+          "type": "user_choice",
+          "payload": {
+            "vowel": "ii",
+            "role": "primary",
+            "choice": "correct",
+            "presented_doc_id": "6a7b2a5b-6630-4968-9a71-470632b1dd4c",
+            "presented_word": "පීසා",
+            "presented_audio": "swara_audio_cloud\\ක්‍රියාකාරකම-02\\07_පීසා_piisaa.mp3",
+            "chosen_doc_id": "6a7b2a5b-6630-4968-9a71-470632b1dd4c"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "ecae409b-1291-413b-8ae8-d2e01739187d",
+      "section": "ක්‍රියාකාරකම-02",
+      "index": "13",
+      "sinhala_word": "ටක්",
+      "singlish": "ttk",
+      "main_vowel_name": "a",
+      "audio_path": "swara_audio_cloud\\ක්‍රියාකාරකම-02\\13_ටක්_ttk.mp3",
+      "presented": true,
+      "user_events": [
+        {
+          "ts": "2025-11-01T20:45:00.678732",
+          "type": "user_choice",
+          "payload": {
+            "vowel": "a",
+            "role": "primary",
+            "choice": "correct",
+            "presented_doc_id": "ecae409b-1291-413b-8ae8-d2e01739187d",
+            "presented_word": "ටක්",
+            "presented_audio": "swara_audio_cloud\\ක්‍රියාකාරකම-02\\13_ටක්_ttk.mp3",
+            "chosen_doc_id": "ecae409b-1291-413b-8ae8-d2e01739187d"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "8fefd403-fcfd-40ec-aa49-3e030109a11c",
+      "section": "ක්‍රියාකාරකම-02",
+      "index": "15",
+      "sinhala_word": "තලා",
+      "singlish": "tlaa",
+      "main_vowel_name": "a",
+      "audio_path": "swara_audio_cloud\\ක්‍රියාකාරකම-02\\15_තලා_tlaa.mp3",
+      "presented": true,
+      "user_events": [
+        {
+          "ts": "2025-11-01T20:45:00.959608",
+          "type": "user_choice",
+          "payload": {
+            "vowel": "a",
+            "role": "confirm",
+            "choice": "correct",
+            "presented_doc_id": "8fefd403-fcfd-40ec-aa49-3e030109a11c",
+            "presented_word": "තලා",
+            "presented_audio": "swara_audio_cloud\\ක්‍රියාකාරකම-02\\15_තලා_tlaa.mp3",
+            "chosen_doc_id": "8fefd403-fcfd-40ec-aa49-3e030109a11c"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "9ce80d94-9660-4a0d-a461-355799fb29a8",
+      "section": "ක්‍රියාකාරකම-02",
+      "index": "15",
+      "sinhala_word": "තුලා",
+      "singlish": "tulaa",
+      "main_vowel_name": "u",
+      "audio_path": "swara_audio_cloud\\ක්‍රියාකාරකම-02\\15_තුලා_tulaa.mp3",
+      "presented": true,
+      "user_events": [
+        {
+          "ts": "2025-11-01T20:45:01.526382",
+          "type": "user_choice",
+          "payload": {
+            "vowel": "u",
+            "role": "confirm",
+            "choice": "correct",
+            "presented_doc_id": "9ce80d94-9660-4a0d-a461-355799fb29a8",
+            "presented_word": "තුලා",
+            "presented_audio": "swara_audio_cloud\\ක්‍රියාකාරකම-02\\15_තුලා_tulaa.mp3",
+            "chosen_doc_id": "9ce80d94-9660-4a0d-a461-355799fb29a8"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "459bbd8a-5e03-4d82-bbb8-ea89d7fe27f4",
+      "section": "ක්‍රියාකාරකම-04",
+      "index": "07",
+      "sinhala_word": "මේසය",
+      "singlish": "meesy",
+      "main_vowel_name": "ee",
+      "audio_path": "swara_audio_cloud\\ක්‍රියාකාරකම-04\\07_මේසය_meesy.mp3",
+      "presented": true,
+      "user_events": [
+        {
+          "ts": "2025-11-01T20:45:02.359405",
+          "type": "user_choice",
+          "payload": {
+            "vowel": "ee",
+            "role": "confirm",
+            "choice": "correct",
+            "presented_doc_id": "459bbd8a-5e03-4d82-bbb8-ea89d7fe27f4",
+            "presented_word": "මේසය",
+            "presented_audio": "swara_audio_cloud\\ක්‍රියාකාරකම-04\\07_මේසය_meesy.mp3",
+            "chosen_doc_id": "459bbd8a-5e03-4d82-bbb8-ea89d7fe27f4"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "4f03ceb7-e2cf-44c8-956b-63554a57be27",
+      "section": "ක්‍රියාකාරකම-04",
+      "index": "09",
+      "sinhala_word": "මීයා",
+      "singlish": "miiyaa",
+      "main_vowel_name": "ii",
+      "audio_path": "swara_audio_cloud\\ක්‍රියාකාරකම-04\\09_මීයා_miiyaa.mp3",
+      "presented": true,
+      "user_events": [
+        {
+          "ts": "2025-11-01T20:45:03.118330",
+          "type": "user_choice",
+          "payload": {
+            "vowel": "ii",
+            "role": "confirm",
+            "choice": "correct",
+            "presented_doc_id": "4f03ceb7-e2cf-44c8-956b-63554a57be27",
+            "presented_word": "මීයා",
+            "presented_audio": "swara_audio_cloud\\ක්‍රියාකාරකම-04\\09_මීයා_miiyaa.mp3",
+            "chosen_doc_id": "4f03ceb7-e2cf-44c8-956b-63554a57be27"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "c30366c8-addd-49c7-acb9-7ce29dcbf912",
+      "section": "ක්‍රියාකාරකම-05",
+      "index": "09",
+      "sinhala_word": "ගෝල",
+      "singlish": "gool",
+      "main_vowel_name": "oo",
+      "audio_path": "swara_audio_cloud\\ක්‍රියාකාරකම-05\\09_ගෝල_gool.mp3",
+      "presented": true,
+      "user_events": [
+        {
+          "ts": "2025-11-01T20:45:03.910999",
+          "type": "user_choice",
+          "payload": {
+            "vowel": "oo",
+            "role": "primary",
+            "choice": "correct",
+            "presented_doc_id": "c30366c8-addd-49c7-acb9-7ce29dcbf912",
+            "presented_word": "ගෝල",
+            "presented_audio": "swara_audio_cloud\\ක්‍රියාකාරකම-05\\09_ගෝල_gool.mp3",
+            "chosen_doc_id": "c30366c8-addd-49c7-acb9-7ce29dcbf912"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "ක්‍රියාකාරකම-01": {
+    "items": [
+      {
+        "index": "01",
+        "words": [
+          "Pas",
+          "Pus"
+        ]
+      },
+      {
+        "index": "02",
+        "words": [
+          "Hata",
+          "Hita"
+        ]
+      },
+      {
+        "index": "03",
+        "words": [
+          "Ballaa",
+          "Billaa"
+        ]
+      },
+      {
+        "index": "04",
+        "words": [
+          "Baya",
+          "Biya"
+        ]
+      },
+      {
+        "index": "05",
+        "words": [
+          "Panaa",
+          "Pinaa"
+        ]
+      },
+      {
+        "index": "06",
+        "words": [
+          "Tin",
+          "Ton"
+        ]
+      },
+      {
+        "index": "07",
+        "words": [
+          "Pil",
+          "Pol"
+        ]
+      },
+      {
+        "index": "08",
+        "words": [
+          "Kaju",
+          "Keeju"
+        ]
+      },
+      {
+        "index": "09",
+        "words": [
+          "Pitta",
+          "Potta"
+        ]
+      },
+      {
+        "index": "10",
+        "words": [
+          "Biditi",
+          "Buditi"
+        ]
+      },
+      {
+        "index": "11",
+        "words": [
+          "Kool",
+          "Kuul"
+        ]
+      },
+      {
+        "index": "12",
+        "words": [
+          "Bol",
+          "Buul"
+        ]
+      },
+      {
+        "index": "13",
+        "words": [
+          "Bima",
+          "Biima"
+        ]
+      },
+      {
+        "index": "14",
+        "words": [
+          "Foon",
+          "Fan"
+        ]
+      },
+      {
+        "index": "15",
+        "words": [
+          "Piirana",
+          "Parana"
+        ]
+      }
+    ],
+    "tokens": [
+      "Pas",
+      "Pus",
+      "Hata",
+      "Hita",
+      "Ballaa",
+      "Billaa",
+      "Baya",
+      "Biya",
+      "Panaa",
+      "Pinaa",
+      "Tin",
+      "Ton",
+      "Pil",
+      "Pol",
+      "Kaju",
+      "Keeju",
+      "Pitta",
+      "Potta",
+      "Biditi",
+      "Buditi",
+      "Kool",
+      "Kuul",
+      "Bol",
+      "Buul",
+      "Bima",
+      "Biima",
+      "Foon",
+      "Fan",
+      "Piirana",
+      "Parana"
+    ]
+  },
+  "ක්‍රියාකාරකම-02": {
+    "items": [
+      {
+        "index": "01",
+        "words": [
+          "Tiiruva",
+          "Taruva"
+        ]
+      },
+      {
+        "index": "02",
+        "words": [
+          "Siinuva",
+          "Saanuva"
+        ]
+      },
+      {
+        "index": "03",
+        "words": [
+          "Diipaya",
+          "Dupaya"
+        ]
+      },
+      {
+        "index": "04",
+        "words": [
+          "Boolaya",
+          "Balaya"
+        ]
+      },
+      {
+        "index": "05",
+        "words": [
+          "Liiya",
+          "Laya"
+        ]
+      },
+      {
+        "index": "06",
+        "words": [
+          "Kaalaya",
+          "Koolaya"
+        ]
+      },
+      {
+        "index": "07",
+        "words": [
+          "Piisaa",
+          "Puusaa"
+        ]
+      },
+      {
+        "index": "08",
+        "words": [
+          "Mulla",
+          "Malla"
+        ]
+      },
+      {
+        "index": "09",
+        "words": [
+          "Gula",
+          "Gala"
+        ]
+      },
+      {
+        "index": "10",
+        "words": [
+          "Vala",
+          "Vila"
+        ]
+      },
+      {
+        "index": "11",
+        "words": [
+          "Mal",
+          "Mul"
+        ]
+      },
+      {
+        "index": "12",
+        "words": [
+          "Saalaya",
+          "Siilaya"
+        ]
+      },
+      {
+        "index": "13",
+        "words": [
+          "Tak",
+          "Tuk"
+        ]
+      },
+      {
+        "index": "14",
+        "words": [
+          "Paala",
+          "Pila"
+        ]
+      },
+      {
+        "index": "15",
+        "words": [
+          "Talaa",
+          "Tulaa"
+        ]
+      }
+    ],
+    "tokens": [
+      "Tiiruva",
+      "Taruva",
+      "Siinuva",
+      "Saanuva",
+      "Diipaya",
+      "Dupaya",
+      "Boolaya",
+      "Balaya",
+      "Liiya",
+      "Laya",
+      "Kaalaya",
+      "Koolaya",
+      "Piisaa",
+      "Puusaa",
+      "Mulla",
+      "Malla",
+      "Gula",
+      "Gala",
+      "Vala",
+      "Vila",
+      "Mal",
+      "Mul",
+      "Saalaya",
+      "Siilaya",
+      "Tak",
+      "Tuk",
+      "Paala",
+      "Pila",
+      "Talaa",
+      "Tulaa"
+    ]
+  },
+  "ක්‍රියාකාරකම-04": {
+    "items": [
+      {
+        "index": "01",
+        "words": [
+          "Paayana",
+          "Piyana"
+        ]
+      },
+      {
+        "index": "02",
+        "words": [
+          "Sihina",
+          "Sahana"
+        ]
+      },
+      {
+        "index": "03",
+        "words": [
+          "Paැla",
+          "Pila"
+        ]
+      },
+      {
+        "index": "04",
+        "words": [
+          "Varala",
+          "Virala"
+        ]
+      },
+      {
+        "index": "05",
+        "words": [
+          "Kusala",
+          "Kasala"
+        ]
+      },
+      {
+        "index": "06",
+        "words": [
+          "Paැduru",
+          "Piduru"
+        ]
+      },
+      {
+        "index": "07",
+        "words": [
+          "Meesaya",
+          "Maasaya"
+        ]
+      },
+      {
+        "index": "08",
+        "words": [
+          "Kaduru",
+          "Kiduru"
+        ]
+      },
+      {
+        "index": "09",
+        "words": [
+          "Miiyaa",
+          "Maayaa"
+        ]
+      },
+      {
+        "index": "10",
+        "words": [
+          "Kala",
+          "Kula"
+        ]
+      }
+    ],
+    "tokens": [
+      "Paayana",
+      "Piyana",
+      "Sihina",
+      "Sahana",
+      "Paැla",
+      "Pila",
+      "Varala",
+      "Virala",
+      "Kusala",
+      "Kasala",
+      "Paැduru",
+      "Piduru",
+      "Meesaya",
+      "Maasaya",
+      "Kaduru",
+      "Kiduru",
+      "Miiyaa",
+      "Maayaa",
+      "Kala",
+      "Kula"
+    ]
+  },
+  "ක්‍රියාකාරකම-05": {
+    "items": [
+      {
+        "index": "01",
+        "words": [
+          "Nala",
+          "Nila"
+        ]
+      },
+      {
+        "index": "02",
+        "words": [
+          "Vastara",
+          "Vistara"
+        ]
+      },
+      {
+        "index": "03",
+        "words": [
+          "Pilikaa",
+          "Paalikaa"
+        ]
+      },
+      {
+        "index": "04",
+        "words": [
+          "Vala",
+          "Vila"
+        ]
+      },
+      {
+        "index": "05",
+        "words": [
+          "Gamana",
+          "Gimana"
+        ]
+      },
+      {
+        "index": "06",
+        "words": [
+          "Sampat",
+          "Simpat"
+        ]
+      },
+      {
+        "index": "07",
+        "words": [
+          "Vasala",
+          "Vaasala"
+        ]
+      },
+      {
+        "index": "08",
+        "words": [
+          "Nayana",
+          "Niyana"
+        ]
+      },
+      {
+        "index": "09",
+        "words": [
+          "Gaala",
+          "Goola"
+        ]
+      },
+      {
+        "index": "10",
+        "words": [
+          "Lassana",
+          "Lissana"
+        ]
+      }
+    ],
+    "tokens": [
+      "Nala",
+      "Nila",
+      "Vastara",
+      "Vistara",
+      "Pilikaa",
+      "Paalikaa",
+      "Vala",
+      "Vila",
+      "Gamana",
+      "Gimana",
+      "Sampat",
+      "Simpat",
+      "Vasala",
+      "Vaasala",
+      "Nayana",
+      "Niyana",
+      "Gaala",
+      "Goola",
+      "Lassana",
+      "Lissana"
+    ]
+  }
+}
