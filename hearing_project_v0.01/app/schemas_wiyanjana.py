@@ -17,6 +17,14 @@ class WiyanjanaSessionStart(BaseModel):
     user_id: str  # For now we'll use random/fake IDs
     started_at: datetime
 
+class WiyanjanaSimpleChoice(BaseModel):
+    selected_key: str = Field(
+        ...,
+        description="The option chosen by the user",
+        pattern="^(correct|similar|other)$"  # Only allow these three values
+    )
+    selected_id: str  # The ID of the selected word
+
 class WiyanjanaUserChoice(BaseModel):
     session_id: str
     user_id: str
