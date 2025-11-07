@@ -94,7 +94,13 @@ class AnswerResponse(BaseModel):
     correct: Optional[QuestionOption] = None
     similar: Optional[QuestionOption] = None
     other_hint: Optional[str] = None
- 
+class WiyanjanaSessionResult(BaseModel):
+    session_id: str
+    user_id: str
+    vowels_tested: List[Dict[str, Any]]
+    started_at: datetime
+    ended_at: Optional[datetime]
+    total_words_tested: int
  
 # --------------------
 # Helpers
@@ -537,3 +543,56 @@ def submit_answer(session_id: str, payload: AnswerRequest):
         "similar": to_option(similar_doc) if similar_doc else None,
         "other_hint": "other",
     }
+
+@router.get("/{session_id}/result", response_model=WiyanjanaSessionResult)
+def get_session_result(session_id: str = Path(..., description="UUID session_id")):
+    """
+    Get the final result of a session after it ends (or current progress if still active).
+
+    Returns:
+      - session_id
+      - user_id
+      - vowels_tested (list of vowels and per-vowel results)
+      - started_at / ended_at
+      - total_words_tested
+    """
+    _lazy_init_db()
+    session = _sessions_coll.find_one({"session_id": session_id})
+    if not session:
+        raise HTTPException(status_code=404, detail="Session not found")
+
+    # Collect vowels tested and their outcomes from consonants_tested
+    tested = session.get("consonants_tested", [])
+    vowels_dict = {}
+    for entry in tested:
+        vowel = None
+        if entry.get("word_id"):
+            word_doc = _swara_coll.find_one({"_id": ObjectId(entry["word_id"])})
+            if word_doc:
+                vowel = word_doc.get("main_vowel_char")
+        vowel = vowel or "Unknown"
+        result = entry.get("result", "unknown")
+
+        if vowel not in vowels_dict:
+            vowels_dict[vowel] = {"vowel": vowel, "correct": 0, "incorrect": 0, "attempts": 0}
+
+        vowels_dict[vowel]["attempts"] += 1
+        if result == "correct":
+            vowels_dict[vowel]["correct"] += 1
+        else:
+            vowels_dict[vowel]["incorrect"] += 1
+
+    vowels_tested = list(vowels_dict.values())
+
+    started_at = session.get("started_at")
+    ended_at = session.get("ended_at") or session.get("last_updated") or utcnow()
+    total_words = len(tested)
+
+    return WiyanjanaSessionResult(
+        session_id=session_id,
+        user_id=session.get("user_id"),
+        vowels_tested=vowels_tested,
+        started_at=started_at,
+        ended_at=ended_at,
+        total_words_tested=total_words,
+    )

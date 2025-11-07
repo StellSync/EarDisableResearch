@@ -9,39 +9,38 @@ class WiyanjanaAnswer(BaseModel):
 
 class WiyanjanaOptions(BaseModel):
     correct_answer: WiyanjanaAnswer
-    similar_answer: WiyanjanaAnswer  # Word with similar consonant
-    other_option: bool = True  # Always true as "Other" is always an option
+    similar_answer: WiyanjanaAnswer
+    other_option: bool = True
 
 class WiyanjanaSessionStart(BaseModel):
     session_id: str
-    user_id: str  # For now we'll use random/fake IDs
+    user_id: str
     started_at: datetime
 
 class WiyanjanaSimpleChoice(BaseModel):
-    selected_key: str = Field(
-        ...,
-        description="The option chosen by the user",
-        pattern="^(correct|similar|other)$"  # Only allow these three values
-    )
-    selected_id: str  # The ID of the selected word
+    selected_key: str = Field(..., pattern="^(correct|similar|other)$")
+    selected_id: str
 
 class WiyanjanaUserChoice(BaseModel):
     session_id: str
     user_id: str
     word_presented: str
-    chosen_option: str = Field(
-        ...,
-        description="The option chosen by the user",
-        pattern="^(correct|similar|other)$"  # Only allow these three values
-    )
-    is_verification: bool  # True if this was a verification question
-    consonant_tested: Dict[str, str]  # The consonant being tested
+    chosen_option: str = Field(..., pattern="^(correct|similar|other)$")
+    is_verification: bool
+    consonant_tested: Dict[str, str]
     timestamp: datetime
+
+# NEW: per-consonant result model
+class WiyanjanaConsonantResult(BaseModel):
+    consonant: str
+    correct: int
+    incorrect: int
+    attempts: int
 
 class WiyanjanaSessionResult(BaseModel):
     session_id: str
     user_id: str
-    consonants_tested: List[Dict[str, Any]]  # List of consonants and their test results
+    consonants_tested: List[WiyanjanaConsonantResult]
     started_at: datetime
     ended_at: datetime
     total_words_tested: int

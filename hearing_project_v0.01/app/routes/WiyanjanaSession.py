@@ -380,24 +380,68 @@ async def submit_choice(choice: WiyanjanaUserChoice, db: AsyncIOMotorDatabase = 
     return {"status": "continue"}
 
 
+
+
+
+from collections import defaultdict
+from fastapi import APIRouter, HTTPException, Depends
+# ... other imports remain ...
+
 @router.get("/session/{session_id}/result", response_model=WiyanjanaSessionResult)
 async def get_session_result(session_id: str, db: AsyncIOMotorDatabase = Depends(get_database)):
+    # load session
     session = await db["wiyanjana_sessions"].find_one({"session_id": session_id})
     if not session:
         raise HTTPException(status_code=404, detail="Session not found")
 
-    if session.get("_id"):
-        session["_id"] = str(session["_id"])
-
+    # fetch choices for this session
     choices = await db["wiyanjana_choices"].find({"session_id": session_id}).to_list(None)
+
+    # Build aggregates grouped by consonant character
+    agg: Dict[str, Dict[str, int]] = defaultdict(lambda: {"correct": 0, "incorrect": 0, "attempts": 0})
+
     for ch in choices:
-        ch["_id"] = str(ch["_id"])
+        # chosen_option may be at ch.get("chosen_option") or ch.get("result") depending on how you inserted it
+        chosen = ch.get("chosen_option") or ch.get("result")
+        consonant_field = ch.get("consonant_tested") or ch.get("consonant")  # handle both saved shapes
+        # extract consonant character if stored as dict or string
+        if isinstance(consonant_field, dict):
+            consonant_char = consonant_field.get("character") or consonant_field.get("consonant") or str(consonant_field)
+        else:
+            consonant_char = str(consonant_field or "unknown")
+
+        # normalize
+        consonant_char = consonant_char.strip()
+
+        # count
+        agg[consonant_char]["attempts"] += 1
+        if chosen == "correct":
+            agg[consonant_char]["correct"] += 1
+        else:
+            # treat "similar" and "other" as incorrect
+            agg[consonant_char]["incorrect"] += 1
+
+    # Convert to list of consonant result dicts (sorted if you like)
+    consonant_results = []
+    for consonant_char, counts in agg.items():
+        consonant_results.append({
+            "consonant": consonant_char,
+            "correct": counts["correct"],
+            "incorrect": counts["incorrect"],
+            "attempts": counts["attempts"]
+        })
+
+    # Optionally sort by consonant or attempts (here by consonant)
+    consonant_results.sort(key=lambda x: x["consonant"])
+
+    started_at = session.get("started_at")
+    ended_at = session.get("ended_at") or datetime.utcnow()
 
     return WiyanjanaSessionResult(
         session_id=session_id,
-        user_id=session["user_id"],
-        consonants_tested=session.get("consonants_tested", []),
-        started_at=session["started_at"],
-        ended_at=session.get("ended_at", datetime.utcnow()),
+        user_id=session.get("user_id"),
+        consonants_tested=consonant_results,
+        started_at=started_at,
+        ended_at=ended_at,
         total_words_tested=len(choices)
     )
