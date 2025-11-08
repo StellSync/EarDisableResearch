@@ -150,31 +150,94 @@ def answer_sentence(session_id: str, payload: SentenceAnswerRequest):
         "timestamp": utcnow()
     })
 
-    # Move to next vowel
-    if vowel in VOWEL_ORDER:
-        next_vowel = VOWEL_ORDER[(VOWEL_ORDER.index(vowel) + 1) % len(VOWEL_ORDER)]
-    else:
-        next_vowel = VOWEL_ORDER[0]
-
+    # Get already tested vowels for this session to avoid repetition
+    tested_choices = list(_choice_coll.find({"session_id": session_id}))
+    tested_vowels = {c["vowel"] for c in tested_choices}
+    
+    # Find the next available vowel with untested sentences
+    next_doc = None
+    next_vowel = None
+    attempts = 0
+    start_index = VOWEL_ORDER.index(vowel) if vowel in VOWEL_ORDER else 0
+    
+    # Try each vowel in order until we find one with available sentences
+    while attempts < len(VOWEL_ORDER):
+        candidate_vowel = VOWEL_ORDER[(start_index + attempts + 1) % len(VOWEL_ORDER)]
+        
+        # If we've tested all vowels, allow repeating from the start
+        if len(tested_vowels) >= len(VOWEL_ORDER):
+            pipeline = [
+                {"$match": {"highlighted_vowels.main_vowel_char": candidate_vowel}},
+                {"$sample": {"size": 1}}
+            ]
+        else:
+            # Only get untested vowels
+            if candidate_vowel in tested_vowels:
+                attempts += 1
+                continue
+                
+            pipeline = [
+                {"$match": {"highlighted_vowels.main_vowel_char": candidate_vowel}},
+                {"$sample": {"size": 1}}
+            ]
+        
+        doc_cursor = _sent_coll.aggregate(pipeline)
+        next_doc = next(doc_cursor, None)
+        
+        if next_doc:
+            next_vowel = candidate_vowel
+            break
+            
+        attempts += 1
+    
+    if not next_doc:
+        # If we couldn't find any untested sentences, try any available sentence
+        next_doc = _sent_coll.aggregate([{"$sample": {"size": 1}}]).next()
+        if not next_doc:
+            return SentenceAnswerResponse(
+                session_id=session_id, 
+                question_id=question_id, 
+                result=result, 
+                message="No more sentences available"
+            )
+        next_vowel = next_doc["highlighted_vowels"][0]["main_vowel_char"]
+    
+    # Update session with next vowel
     _sess_coll.update_one(
         {"session_id": session_id},
         {"$set": {"vowel_progress": {"current_vowel": next_vowel, "attempts": 0}, "current": None}}
     )
 
-    next_doc = _sent_coll.aggregate([
-        {"$match": {"highlighted_vowels.main_vowel_char": next_vowel}},
-        {"$sample": {"size": 1}}
-    ])
-    next_doc = next(next_doc, None)
-    if not next_doc:
-        return SentenceAnswerResponse(session_id=session_id, question_id=question_id, result=result, message="No more sentences")
+    next_question_id = str(uuid4())
+    # Set up next question in the session
+    new_current = {
+        "question_id": next_question_id,
+        "correct_id": str(next_doc["_id"]),
+        "vowel": next_vowel,
+        "started_at": utcnow(),
+    }
+    
+    # Update session with next question and progress
+    _sess_coll.update_one(
+        {"session_id": session_id},
+        {
+            "$set": {
+                "vowel_progress": {
+                    "current_vowel": next_vowel,
+                    "attempts": 0,
+                    "total_tested": len(tested_vowels)
+                },
+                "current": new_current
+            }
+        }
+    )
 
     correct = to_option(next_doc, 0)
     similar = to_option(next_doc, 1) if len(next_doc["sentences"]) > 1 else None
 
     return SentenceAnswerResponse(
         session_id=session_id,
-        question_id=str(uuid4()),
+        question_id=next_question_id,
         result=result,
         message=f"Next vowel: {next_vowel}",
         correct=correct,
