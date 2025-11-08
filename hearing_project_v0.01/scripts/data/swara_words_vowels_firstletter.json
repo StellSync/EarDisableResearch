@@ -1,0 +1,702 @@
+[
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "01",
+    "sinhala_word": "පස්",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "01",
+    "sinhala_word": "පුස්",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "02",
+    "sinhala_word": "හත",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "02",
+    "sinhala_word": "හිත",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "03",
+    "sinhala_word": "බල්ලා",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "03",
+    "sinhala_word": "බිල්ලා",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "04",
+    "sinhala_word": "බය",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "04",
+    "sinhala_word": "බිය",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "05",
+    "sinhala_word": "පනා",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "05",
+    "sinhala_word": "පිනා",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "06",
+    "sinhala_word": "ටින්",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "06",
+    "sinhala_word": "ටොන්",
+    "main_vowel_char": "ඔ",
+    "main_vowel_name": "o"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "07",
+    "sinhala_word": "පිල්",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "07",
+    "sinhala_word": "පොල්",
+    "main_vowel_char": "ඔ",
+    "main_vowel_name": "o"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "08",
+    "sinhala_word": "කජු",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "08",
+    "sinhala_word": "කේජු",
+    "main_vowel_char": "ඒ",
+    "main_vowel_name": "ee"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "09",
+    "sinhala_word": "පිත්ත",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "09",
+    "sinhala_word": "පොත්ත",
+    "main_vowel_char": "ඔ",
+    "main_vowel_name": "o"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "10",
+    "sinhala_word": "බිදිති",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "10",
+    "sinhala_word": "බුදිති",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "11",
+    "sinhala_word": "කෝල්",
+    "main_vowel_char": "ඕ",
+    "main_vowel_name": "oo"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "11",
+    "sinhala_word": "කූල්",
+    "main_vowel_char": "ඌ",
+    "main_vowel_name": "uu"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "12",
+    "sinhala_word": "බොල්",
+    "main_vowel_char": "ඔ",
+    "main_vowel_name": "o"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "12",
+    "sinhala_word": "බූල්",
+    "main_vowel_char": "ඌ",
+    "main_vowel_name": "uu"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "13",
+    "sinhala_word": "බිම",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "13",
+    "sinhala_word": "බීම",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "14",
+    "sinhala_word": "ෆෝන්",
+    "main_vowel_char": "ඕ",
+    "main_vowel_name": "oo"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "14",
+    "sinhala_word": "ෆන්",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "15",
+    "sinhala_word": "පීරන",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "15",
+    "sinhala_word": "පරන",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "01",
+    "sinhala_word": "තීරුව",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "01",
+    "sinhala_word": "තරුව",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "02",
+    "sinhala_word": "සීනුව",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "02",
+    "sinhala_word": "සානුව",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "03",
+    "sinhala_word": "දීපය",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "03",
+    "sinhala_word": "දුපය",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "04",
+    "sinhala_word": "බෝලය",
+    "main_vowel_char": "ඕ",
+    "main_vowel_name": "oo"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "04",
+    "sinhala_word": "බලය",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "05",
+    "sinhala_word": "ලීය",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "05",
+    "sinhala_word": "ලය",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "06",
+    "sinhala_word": "කාලය",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "06",
+    "sinhala_word": "කෝලය",
+    "main_vowel_char": "ඕ",
+    "main_vowel_name": "oo"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "07",
+    "sinhala_word": "පීසා",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "07",
+    "sinhala_word": "පූසා",
+    "main_vowel_char": "ඌ",
+    "main_vowel_name": "uu"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "08",
+    "sinhala_word": "මුල්ල",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "08",
+    "sinhala_word": "මල්ල",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "09",
+    "sinhala_word": "ගුල",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "09",
+    "sinhala_word": "ගල",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "10",
+    "sinhala_word": "වල",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "10",
+    "sinhala_word": "විල",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "11",
+    "sinhala_word": "මල්",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "11",
+    "sinhala_word": "මුල්",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "12",
+    "sinhala_word": "සාලය",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "12",
+    "sinhala_word": "සීලය",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "13",
+    "sinhala_word": "ටක්",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "13",
+    "sinhala_word": "ටුක්",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "14",
+    "sinhala_word": "පාල",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "14",
+    "sinhala_word": "පිල",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "15",
+    "sinhala_word": "තලා",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "15",
+    "sinhala_word": "තුලා",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "01",
+    "sinhala_word": "පායන",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "01",
+    "sinhala_word": "පියන",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "02",
+    "sinhala_word": "සිහින",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "02",
+    "sinhala_word": "සහන",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "03",
+    "sinhala_word": "පැල",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "03",
+    "sinhala_word": "පිල",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "04",
+    "sinhala_word": "වරල",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "04",
+    "sinhala_word": "විරල",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "05",
+    "sinhala_word": "කුසල",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "05",
+    "sinhala_word": "කසල",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "06",
+    "sinhala_word": "පැදුරු",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "06",
+    "sinhala_word": "පිදුරු",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "07",
+    "sinhala_word": "මේසය",
+    "main_vowel_char": "ඒ",
+    "main_vowel_name": "ee"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "07",
+    "sinhala_word": "මාසය",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "08",
+    "sinhala_word": "කදුරු",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "08",
+    "sinhala_word": "කිදුරු",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "09",
+    "sinhala_word": "මීයා",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "09",
+    "sinhala_word": "මායා",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "10",
+    "sinhala_word": "කල",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "10",
+    "sinhala_word": "කුල",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "01",
+    "sinhala_word": "නල",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "01",
+    "sinhala_word": "නිල",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "02",
+    "sinhala_word": "වස්තර",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "02",
+    "sinhala_word": "විස්තර",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "03",
+    "sinhala_word": "පිලිකා",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "03",
+    "sinhala_word": "පාලිකා",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "04",
+    "sinhala_word": "වල",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "04",
+    "sinhala_word": "විල",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "05",
+    "sinhala_word": "ගමන",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "05",
+    "sinhala_word": "ගිමන",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "06",
+    "sinhala_word": "සම්පත්",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "06",
+    "sinhala_word": "සිම්පත්",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "07",
+    "sinhala_word": "වසල",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "07",
+    "sinhala_word": "වාසල",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "08",
+    "sinhala_word": "නයන",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "08",
+    "sinhala_word": "නියන",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "09",
+    "sinhala_word": "ගාල",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "09",
+    "sinhala_word": "ගෝල",
+    "main_vowel_char": "ඕ",
+    "main_vowel_name": "oo"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "10",
+    "sinhala_word": "ලස්සන",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "10",
+    "sinhala_word": "ලිස්සන",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  }
+]

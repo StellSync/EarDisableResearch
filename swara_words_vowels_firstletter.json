@@ -1,0 +1,904 @@
+[
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "01",
+    "sinhala_word": "පස්",
+    "singlish_word": "Pas",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/01_පස්_ps.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "01",
+    "sinhala_word": "පුස්",
+    "singlish_word": "Pus",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/01_පුස්_pus.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "02",
+    "sinhala_word": "හත",
+    "singlish_word": "Hata",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/02_හත_ht.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "02",
+    "sinhala_word": "හිත",
+    "singlish_word": "Hita",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/02_හිත_hit.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "03",
+    "sinhala_word": "බල්ලා",
+    "singlish_word": "Ballaa",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/03_බල්ලා_bllaa.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "03",
+    "sinhala_word": "බිල්ලා",
+    "singlish_word": "Billaa",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/03_බිල්ලා_billaa.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "04",
+    "sinhala_word": "බය",
+    "singlish_word": "Baya",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/04_බය_by.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "04",
+    "sinhala_word": "බිය",
+    "singlish_word": "Biya",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/04_බිය_biy.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "05",
+    "sinhala_word": "පනා",
+    "singlish_word": "Panaa",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/05_පනා_pnaa.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "05",
+    "sinhala_word": "පිනා",
+    "singlish_word": "Pinaa",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/05_පිනා_pinaa.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "06",
+    "sinhala_word": "ටින්",
+    "singlish_word": "Tin",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/06_ටින්_ttin.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "06",
+    "sinhala_word": "ටොන්",
+    "singlish_word": "Ton",
+    "main_vowel_char": "ඔ",
+    "main_vowel_name": "o",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/06_ටොන්_tton.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "07",
+    "sinhala_word": "පිල්",
+    "singlish_word": "Pil",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/07_පිල්_pil.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "07",
+    "sinhala_word": "පොල්",
+    "singlish_word": "Pol",
+    "main_vowel_char": "ඔ",
+    "main_vowel_name": "o",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/07_පොල්_pol.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "08",
+    "sinhala_word": "කජු",
+    "singlish_word": "Kaju",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/08_කජු_kju.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "08",
+    "sinhala_word": "කේජු",
+    "singlish_word": "Keeju",
+    "main_vowel_char": "ඒ",
+    "main_vowel_name": "ee",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/08_කේජු_keeju.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "09",
+    "sinhala_word": "පිත්ත",
+    "singlish_word": "Pitta",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/09_පිත්ත_pitt.mp3"
+  },
+
+  
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "09",
+    "sinhala_word": "පොත්ත",
+    "singlish_word": "Potta",
+    "main_vowel_char": "ඔ",
+    "main_vowel_name": "o",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/09_පොත්ත_pott.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "10",
+    "sinhala_word": "බිදිති",
+    "singlish_word": "Biditi",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/10_බිදිති_biditi.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "10",
+    "sinhala_word": "බුදිති",
+    "singlish_word": "Buditi",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/10_බුදිති_buditi.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "11",
+    "sinhala_word": "කෝල්",
+    "singlish_word": "Kool",
+    "main_vowel_char": "ඕ",
+    "main_vowel_name": "oo",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/11_කෝල්_kool.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "11",
+    "sinhala_word": "කූල්",
+    "singlish_word": "Kuul",
+    "main_vowel_char": "ඌ",
+    "main_vowel_name": "uu",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/11_කූල්_kuul.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "12",
+    "sinhala_word": "බොල්",
+    "singlish_word": "Bol",
+    "main_vowel_char": "ඔ",
+    "main_vowel_name": "o",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/12_බොල්_bol.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "12",
+    "sinhala_word": "බූල්",
+    "singlish_word": "Buul",
+    "main_vowel_char": "ඌ",
+    "main_vowel_name": "uu",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/12_බූල්_buul.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "13",
+    "sinhala_word": "බිම",
+    "singlish_word": "Bima",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/13_බිම_bim.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "13",
+    "sinhala_word": "බීම",
+    "singlish_word": "Biima",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/13_බීම_biim.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "14",
+    "sinhala_word": "ෆෝන්",
+    "singlish_word": "Foon",
+    "main_vowel_char": "ඕ",
+    "main_vowel_name": "oo",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/14_ෆෝන්_foon.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "14",
+    "sinhala_word": "ෆන්",
+    "singlish_word": "Fan",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/14_ෆන්_fn.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "15",
+    "sinhala_word": "පීරන",
+    "singlish_word": "Piirana",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/15_පීරන_piirn.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-01",
+    "index": "15",
+    "sinhala_word": "පරන",
+    "singlish_word": "Parana",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-01/15_පරන_prn.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "01",
+    "sinhala_word": "තීරුව",
+    "singlish_word": "Tiiruva",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/01_තීරුව_tiiruv.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "01",
+    "sinhala_word": "තරුව",
+    "singlish_word": "Taruva",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/01_තරුව_truv.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "02",
+    "sinhala_word": "සීනුව",
+    "singlish_word": "Siinuva",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/02_සීනුව_siinuv.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "02",
+    "sinhala_word": "සානුව",
+    "singlish_word": "Saanuva",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/02_සානුව_saanuv.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "03",
+    "sinhala_word": "දීපය",
+    "singlish_word": "Diipaya",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/03_දීපය_diipy.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "03",
+    "sinhala_word": "දුපය",
+    "singlish_word": "Dupaya",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/03_දුපය_dupy.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "04",
+    "sinhala_word": "බෝලය",
+    "singlish_word": "Boolaya",
+    "main_vowel_char": "ඕ",
+    "main_vowel_name": "oo",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/04_බෝලය_booly.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "04",
+    "sinhala_word": "බලය",
+    "singlish_word": "Balaya",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/04_බලය_bly.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "05",
+    "sinhala_word": "ලීය",
+    "singlish_word": "Liiya",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/05_ලීය_liiy.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "05",
+    "sinhala_word": "ලය",
+    "singlish_word": "Laya",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/05_ලය_ly.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "06",
+    "sinhala_word": "කාලය",
+    "singlish_word": "Kaalaya",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/06_කාලය_kaaly.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "06",
+    "sinhala_word": "කෝලය",
+    "singlish_word": "Koolaya",
+    "main_vowel_char": "ඕ",
+    "main_vowel_name": "oo",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/06_කෝලය_kooly.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "07",
+    "sinhala_word": "පීසා",
+    "singlish_word": "Piisaa",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/07_පීසා_piisaa.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "07",
+    "sinhala_word": "පූසා",
+    "singlish_word": "Puusaa",
+    "main_vowel_char": "ඌ",
+    "main_vowel_name": "uu",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/07_පූසා_puusaa.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "08",
+    "sinhala_word": "මුල්ල",
+    "singlish_word": "Mulla",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/08_මුල්ල_mull.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "08",
+    "sinhala_word": "මල්ල",
+    "singlish_word": "Malla",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/08_මල්ල_mll.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "09",
+    "sinhala_word": "ගුල",
+    "singlish_word": "Gula",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/09_ගුල_gul.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "09",
+    "sinhala_word": "ගල",
+    "singlish_word": "Gala",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/09_ගල_gl.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "10",
+    "sinhala_word": "වල",
+    "singlish_word": "Vala",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/10_වල_vl.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "10",
+    "sinhala_word": "විල",
+    "singlish_word": "Vila",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/10_විල_vil.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "11",
+    "sinhala_word": "මල්",
+    "singlish_word": "Mal",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/11_මල්_ml.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "11",
+    "sinhala_word": "මුල්",
+    "singlish_word": "Mul",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/11_මුල්_mul.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "12",
+    "sinhala_word": "සාලය",
+    "singlish_word": "Saalaya",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/12_සාලය_saaly.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "12",
+    "sinhala_word": "සීලය",
+    "singlish_word": "Siilaya",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/12_සීලය_siily.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "13",
+    "sinhala_word": "ටක්",
+    "singlish_word": "Tak",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/13_ටක්_ttk.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "13",
+    "sinhala_word": "ටුක්",
+    "singlish_word": "Tuk",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/13_ටුක්_ttuk.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "14",
+    "sinhala_word": "පාල",
+    "singlish_word": "Paala",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/14_පාල_paal.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "14",
+    "sinhala_word": "පිල",
+    "singlish_word": "Pila",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/14_පිල_pil.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "15",
+    "sinhala_word": "තලා",
+    "singlish_word": "Talaa",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/15_තලා_tlaa.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-02",
+    "index": "15",
+    "sinhala_word": "තුලා",
+    "singlish_word": "Tulaa",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-02/15_තුලා_tulaa.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "01",
+    "sinhala_word": "පායන",
+    "singlish_word": "Paayana",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/01_පායන_paayn.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "01",
+    "sinhala_word": "පියන",
+    "singlish_word": "Piyana",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/01_පියන_piyn.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "02",
+    "sinhala_word": "සිහින",
+    "singlish_word": "Sihina",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/02_සිහින_sihin.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "02",
+    "sinhala_word": "සහන",
+    "singlish_word": "Sahana",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/02_සහන_shn.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "03",
+    "sinhala_word": "පැල",
+    "singlish_word": "Paැla",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/03_පැල_pael.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "03",
+    "sinhala_word": "පිල",
+    "singlish_word": "Pila",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/03_පිල_pil.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "04",
+    "sinhala_word": "වරල",
+    "singlish_word": "Varala",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/04_වරල_vrl.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "04",
+    "sinhala_word": "විරල",
+    "singlish_word": "Virala",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/04_විරල_virl.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "05",
+    "sinhala_word": "කුසල",
+    "singlish_word": "Kusala",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/05_කුසල_kusl.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "05",
+    "sinhala_word": "කසල",
+    "singlish_word": "Kasala",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/05_කසල_ksl.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "06",
+    "sinhala_word": "පැදුරු",
+    "singlish_word": "Paැduru",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/06_පැදුරු_paeduru.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "06",
+    "sinhala_word": "පිදුරු",
+    "singlish_word": "Piduru",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/06_පිදුරු_piduru.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "07",
+    "sinhala_word": "මේසය",
+    "singlish_word": "Meesaya",
+    "main_vowel_char": "ඒ",
+    "main_vowel_name": "ee",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/07_මේසය_meesy.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "07",
+    "sinhala_word": "මාසය",
+    "singlish_word": "Maasaya",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/07_මාසය_maasy.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "08",
+    "sinhala_word": "කදුරු",
+    "singlish_word": "Kaduru",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/08_කදුරු_kduru.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "08",
+    "sinhala_word": "කිදුරු",
+    "singlish_word": "Kiduru",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/08_කිදුරු_kiduru.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "09",
+    "sinhala_word": "මීයා",
+    "singlish_word": "Miiyaa",
+    "main_vowel_char": "ඊ",
+    "main_vowel_name": "ii",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/09_මීයා_miiyaa.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "09",
+    "sinhala_word": "මායා",
+    "singlish_word": "Maayaa",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/09_මායා_maayaa.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "10",
+    "sinhala_word": "කල",
+    "singlish_word": "Kala",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/10_කල_kl.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-04",
+    "index": "10",
+    "sinhala_word": "කුල",
+    "singlish_word": "Kula",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-04/10_කුල_kul.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "01",
+    "sinhala_word": "නල",
+    "singlish_word": "Nala",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/01_නල_nl.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "01",
+    "sinhala_word": "නිල",
+    "singlish_word": "Nila",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/01_නිල_nil.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "02",
+    "sinhala_word": "වස්තර",
+    "singlish_word": "Vastara",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/02_වස්තර_vstr.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "02",
+    "sinhala_word": "විස්තර",
+    "singlish_word": "Vistara",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/02_විස්තර_vistr.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "03",
+    "sinhala_word": "පිලිකා",
+    "singlish_word": "Pilikaa",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/03_පිලිකා_pilikaa.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "03",
+    "sinhala_word": "පාලිකා",
+    "singlish_word": "Paalikaa",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/03_පාලිකා_paalikaa.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "04",
+    "sinhala_word": "වල",
+    "singlish_word": "Vala",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/04_වල_vl.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "04",
+    "sinhala_word": "විල",
+    "singlish_word": "Vila",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/04_විල_vil.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "05",
+    "sinhala_word": "ගමන",
+    "singlish_word": "Gamana",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/05_ගමන_gmn.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "05",
+    "sinhala_word": "ගිමන",
+    "singlish_word": "Gimana",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/05_ගිමන_gimn.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "06",
+    "sinhala_word": "සම්පත්",
+    "singlish_word": "Sampat",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/06_සම්පත්_smpt.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "06",
+    "sinhala_word": "සිම්පත්",
+    "singlish_word": "Simpat",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/06_සිම්පත්_simpt.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "07",
+    "sinhala_word": "වසල",
+    "singlish_word": "Vasala",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/07_වසල_vsl.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "07",
+    "sinhala_word": "වාසල",
+    "singlish_word": "Vaasala",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/07_වාසල_vaasl.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "08",
+    "sinhala_word": "නයන",
+    "singlish_word": "Nayana",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/08_නයන_nyn.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "08",
+    "sinhala_word": "නියන",
+    "singlish_word": "Niyana",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/08_නියන_niyn.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "09",
+    "sinhala_word": "ගාල",
+    "singlish_word": "Gaala",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/09_ගාල_gaal.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "09",
+    "sinhala_word": "ගෝල",
+    "singlish_word": "Goola",
+    "main_vowel_char": "ඕ",
+    "main_vowel_name": "oo",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/09_ගෝල_gool.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "10",
+    "sinhala_word": "ලස්සන",
+    "singlish_word": "Lassana",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/10_ලස්සන_lssn.mp3"
+  },
+  {
+    "section": "ක්‍රියාකාරකම-05",
+    "index": "10",
+    "sinhala_word": "ලිස්සන",
+    "singlish_word": "Lissana",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i",
+    "audio_path": "swara_audio_cloud/ක්‍රියාකාරකම-05/10_ලිස්සන_lissn.mp3"
+  }
+]

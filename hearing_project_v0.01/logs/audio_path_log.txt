@@ -1,0 +1,4 @@
+[2025-11-02T18:19:34.760067]  Section folder not found for section 'ක්‍රියාකාරකම-02': C:\tmp\swara_audio\ක්‍රියාකාරකම-02
+[2025-11-02T18:19:34.761084]  Section folder not found for section 'ක්‍රියාකාරකම-02': C:\tmp\swara_audio\ක්‍රියාකාරකම-02
+[2025-11-02T18:24:21.369549]  Section folder not found for section 'ක්‍රියාකාරකම-05': C:\tmp\swara_audio\ක්‍රියාකාරකම-05
+[2025-11-02T18:24:21.370552]  Section folder not found for section 'ක්‍රියාකාරකම-05': C:\tmp\swara_audio\ක්‍රියාකාරකම-05

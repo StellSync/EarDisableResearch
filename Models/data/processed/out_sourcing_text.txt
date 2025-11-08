@@ -1,0 +1,124 @@
+OUT SOURCING PART 1 -NEED IT ON NOVEMEBR 05 TH  
+WORD LEVEL IDENTIFICA TION-SINHALA SWARA IDENTIFICATION - the below are the 
+therapy pages u need to refer when developing word level activities.I have explained what I 
+need in page 6.please go through it before developing.  
+ 
+ 
+
+
+SINHALA  WORD LEVEL  WAYANJANA S ABDA IDENTIFICATION - 
+ 
+ 
+
+
+WHAT I NEED -as you can see there are different therapy mod ules to identify swara and wayanja na 
+in words. To  make it more interactive they have defined two type of activit ies. 
+Eg-1st way through playing different words ,2nd way through sentences and identify the specific 
+words (coginitive style exercises -refer page 3 exercise (same thing in different way )) . 
+So from the above two ways I n eed 2 activities that will finally identify the vowels and consenets 
+that are hard for the patients along with adaptive learning.  
+Better if u can use different algorithm comparison  and use most accurate one for the adaptive 
+learning and and research  process to check whether gpt model through tocken generation  basis 
+approach is better or not. Need clear proof for when choosing spec ific algorithm or the other way . 
+OUTPUT-Learning curve analysis (improvement across sessions , accuracy, response time ), 
+Identification of error patterns (incorrectly heard words, repeated failure)  . 
+For each user to do GAM analysis performance  graph needed to be drawn  for each activity 
+developed for words  
+ 
+**special note -emergency related words for swara and wayanjana should be included in a different 
+activity . for emergency related  activitys at the end emergency comprehension score should be 
+given In order to check whether the patient is ready for a emergency situation.  
+Please ask if there is any unclear point. THAT’S FOR WORD LEVEL IDENTIFICATION  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+COMPONENT 2 -SENTENCE LEVEL IDENTIFICATION - 
+Activity1- 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+WHAT HAP PEN HERE IS THAT THROUGH THE ABOVE SENTENCES CONTAIN LOW ,HIGH PITCHED 
+SOUNDS.WILL BE CHECKING WHETHER  THE PAIENT WILL BE  ABLE IDENTIFYING “WA”, “MA” LOW 
+PTCHED AND OTHER LOW PITCHED SOUNDS IF CONTAIN IN SINHALA LANGUAGE.  
+SAME GOES WITH HIGH PITCH SOUNDS IDENTIFICATION OF “SA”, “FA”. 
+WILL NEED A L ING SOUND ANALYSIS THROUGH THE ABOVE SENTENCE BASED THERAPY 
+ACRIVITIES.  
+BETTER IF YOU CAN IDENTIFY  PATIENTS EXACT FREQUENCY CATEGORY THROUGH ABOVE 
+SENTENCE BASED ACTIVITYS. FOR ABOVE ALSO AD APTIVE LEARNING IMPLEMENTATION IS 
+
+
+NEEDED(EG -SYSTEM WILL IDENTIFY THE FREQUENCY CATEGORY OF THE PATIENT AND 
+RECOMMED THE SENTENCES ACCORDINGL Y(SAME AS THE WORD LEVEL IDENTIFICATI ON)). 
+ 
+BETTER IF U CAN CATEGORIZE ACCORDINGLY AND REECOMMEND THE SENTENCES.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ACTIVITY 2 -REALED TO SENETENCE LEVEL IDENTIFICATION  
+SENTENCES RELATED TO DAY TO DAY ACTIVITYS  
+ 
+
+
+ 
+FOR EACH TOPIC CATEGORIZE ACCORDING TO LONG AND SHORT SENTENCES AND PROCEED 
+ACCORDING TO PATIENTS’  ANSWERS (ADAPTIVE LEARNING).  
+EG-IF THE USER IS ABLE IDENTIFY 2 WORDS SENTENCES (NEED TO CONFIRM IT THOROUGHLY BY 
+PROBABILISTIC ALGORITHEM) THEN PROCEED IT T O 3 WORD SENTENCES AND SO ON UNTIL THE 
+PATIENT BE ABLE TO IDENTIFY LONG SENTENCES . 
+ 
+OUTPUT-Learning curve analysis (improvement across sessions , accuracy, response time ), 
+Identification of error patterns (incorrectly heard words, repeated failure)  . 
+For each user to do GAM analysis performance  graph needed to be drawn  for each activity 
+developed for words  
+Whether he can identify it’s a question or not  
+ 
+ 
+
+
+**special note -emergency related sentences should be included in a different activity and proceed 
+with adaptive learning algorithm selected after necessary research and proof needed. ( as in why  
+you selected that method?)  for emergency related  activities  at the end emergency comprehension 
+score should be given In order to check whether the patient is ready for a emergency situation.  
+Please ask if there is any unclear point. THAT’S FOR SENETENCE LEVEL IDENTIFICATION  
+ 
+Summarize  
+What to develop – 
+WORD LEVEL IDENTIFICATION - 
+• ACTIVITY 1 FOR SWARA  
+• ACTIVITY 2 FOR WAYANJANA  
+• ACTIVITY3 FOR SWARA AND WAYANJANA  WORDS USING  SENTENCES(SAMETHING BUT A 
+DIFFERENT FORMAT)  
+SENETENCE LEVEL IDENTIFICATION  
+• ACTIVITY 1 - IDENTIFY  PATIENTS EXACT FREQUENCY CATEGORY THROUGH SENTENCE 
+BASED ACTIVITYS  
+• ACTIVITY 2 - SENTENCES RELATED TO DAY TO DAY ACTIVITYS  
+ 
+ 
+ 
