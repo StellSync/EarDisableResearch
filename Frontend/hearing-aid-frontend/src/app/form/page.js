@@ -1,15 +1,28 @@
 "use client";
 import React, { useState } from "react";
 import { Typography, Button, Grid, Card, CardContent } from "@mui/material";
-import QuizDialog from "../components/QuizDialog";
+import VowelDialog from "../components/VowelDialog";
+import ConsonantsDialog from "../components/ConsonantsDialog";
+import SentenceDialog from "../components/SentenceDialog";
 
 const Form = () => {
-	const [openQuiz, setOpenQuiz] = useState(false);
+	const [openVowelQuiz, setOpenVowelQuiz] = useState(false);
+	const [openConsonantQuiz, setOpenConsonantQuiz] = useState(false);
+	const [openSentenceQuiz, setOpenSentenceQuiz] = useState(false);
 	const [quizType, setQuizType] = useState("");
 
 	const handleStartQuiz = (type) => {
 		setQuizType(type);
-		setOpenQuiz(true);
+		if (type === "vowels") {
+			setOpenVowelQuiz(true);
+		}
+		if (type === "consonants") {
+			setOpenConsonantQuiz(true);
+			console.log("Consonant quiz started");
+		}
+		if (type === "sentence") {
+			setOpenSentenceQuiz(true);
+		}
 	};
 
 	return (
@@ -103,7 +116,7 @@ const Form = () => {
 								},
 								cursor: "pointer",
 							}}
-							onClick={() => handleStartQuiz("curries")}
+							onClick={() => handleStartQuiz("consonants")}
 						>
 							<CardContent
 								sx={{
@@ -122,14 +135,14 @@ const Form = () => {
 									gutterBottom
 									fontWeight="500"
 								>
-									Curries
+									Consonants
 								</Typography>
 								<Typography
 									variant="body1"
 									color="text.secondary"
 									sx={{ mb: 3, fontSize: "1.1rem" }}
 								>
-									Quick test for curries recognition
+									Quick test for consonant recognition
 								</Typography>
 								<Button
 									variant="contained"
@@ -215,7 +228,7 @@ const Form = () => {
 						</Grid>
 						<Grid item>
 							<Typography variant="body2" color="text.secondary">
-								Curries: 33
+								Consonant : 33
 							</Typography>
 						</Grid>
 						<Grid item>
@@ -226,9 +239,19 @@ const Form = () => {
 					</Grid>
 				</Grid>
 			</Grid>
-			<QuizDialog
-				open={openQuiz}
-				onClose={() => setOpenQuiz(false)}
+			<VowelDialog
+				open={openVowelQuiz}
+				onClose={() => setOpenVowelQuiz(false)}
+				quizType={quizType}
+			/>
+			<ConsonantsDialog
+				open={openConsonantQuiz}
+				onClose={() => setOpenConsonantQuiz(false)}
+				quizType={quizType}
+			/>
+			<SentenceDialog
+				open={openSentenceQuiz}
+				onClose={() => setOpenSentenceQuiz(false)}
 				quizType={quizType}
 			/>
 		</>
