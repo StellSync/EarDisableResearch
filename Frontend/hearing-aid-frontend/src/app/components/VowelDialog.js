@@ -9,34 +9,15 @@ import {
 	DialogTitle,
 } from "@mui/material";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
-import RestartAltIcon from "@mui/icons-material/RestartAlt";
 import LogoutIcon from "@mui/icons-material/Logout";
-import apiDefinitions from "../../apis/apiDefinitions";
+import VowelApis from "../../apis/VowelApis";
 import CircularProgress from "@mui/material/CircularProgress";
 
-const QuizDialog = ({ open, onClose, quizType }) => {
-	const questions = [
-		{
-			id: 1,
-			question: "ඔයාට කොහොම ද?",
-			audioUrl: "/audio/sound1.mp3",
-			options: ["Bell", "Horn", "Whistle", "Bird"],
-			correctAnswer: "Bell",
-		},
-		{
-			id: 2,
-			question: "Identify this musical instrument",
-			audioUrl: "/audio/sound2.mp3",
-			options: ["Piano", "Guitar", "Drums", "Violin"],
-			correctAnswer: "Piano",
-		},
-	];
-
-	const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+const VowelDialog = ({ open, onClose, quizType }) => {
+	
 	const [currentQuestion, setCurrentQuestion] = useState(null);
 	const [selectedAnswer, setSelectedAnswer] = useState("");
 	const [selectedPayload, setSelectedPayload] = useState(null);
-	const [score, setScore] = useState(0);
 	const [questionNumber, setQuestionNumber] = useState(1);
 	const [showResults, setShowResults] = useState(false);
 	const [shuffledOptions, setShuffledOptions] = useState([]);
@@ -66,7 +47,7 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 		setIsSubmitting(true);
 		try {
 			// submit answer
-			const response = await apiDefinitions.submitAnswer(
+			const response = await VowelApis.submitAnswer(
 				sessionId,
 				selectedPayload
 			);
@@ -100,7 +81,7 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 				}
 			} else {
 				// fallback: ask server for next question
-				const nextResp = await apiDefinitions.nextVowel(sessionId);
+				const nextResp = await VowelApis.nextVowel(sessionId);
 				if (nextResp && nextResp.data) {
 					setCurrentQuestion(nextResp.data);
 					setQuestionNumber((p) => p + 1);
@@ -130,7 +111,7 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 		setShowResults(true);
 
 		// Fetch results from the API
-		const resultsResponse = await apiDefinitions.getResults(sessionId);
+		const resultsResponse = await VowelApis.getResults(sessionId);
 		if (resultsResponse && resultsResponse.data) {
 			const data = resultsResponse.data;
 			// Process and display results
@@ -164,12 +145,12 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 			}; // Add any necessary payload data here
 
 			setIsSubmitting(true);
-			const response = await apiDefinitions.startVowels(payload);
+			const response = await VowelApis.startVowels(payload);
 
 			if (response.data && response.data.session_id) {
 				const session = response.data.session_id;
 				setSessionId(session);
-				const firstQuestionResponse = await apiDefinitions.nextVowel(session);
+				const firstQuestionResponse = await VowelApis.nextVowel(session);
 				if (firstQuestionResponse.data) {
 					setCurrentQuestion(firstQuestionResponse.data);
 					setIsSubmitting(false);
@@ -429,7 +410,7 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 									bgcolor: !selectedAnswer ? "#e0e0e0" : "primary.main",
 								}}
 							>
-								{currentQuestionIndex === questions.length - 1
+								{questionNumber === 8
 									? "Finish"
 									: "Next Question"}
 							</Button>
@@ -441,4 +422,4 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 	);
 };
 
-export default QuizDialog;
+export default VowelDialog;

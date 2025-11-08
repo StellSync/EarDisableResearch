@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Typography, Button, Grid, Card, CardContent } from "@mui/material";
-import QuizDialog from "../components/QuizDialog";
+import VowelDialog from "../components/VowelDialog";
 
 const Form = () => {
 	const [openQuiz, setOpenQuiz] = useState(false);
@@ -226,7 +226,7 @@ const Form = () => {
 					</Grid>
 				</Grid>
 			</Grid>
-			<QuizDialog
+			<VowelDialog
 				open={openQuiz}
 				onClose={() => setOpenQuiz(false)}
 				quizType={quizType}
