@@ -1,6 +1,6 @@
 import { api } from "./api.js";
 
-const apiDefinitions = {
+const VowelApis = {
 	startVowels: async function (payload) {
 		return await api.post(`/sessions/start`, payload);
 	},
@@ -15,4 +15,4 @@ const apiDefinitions = {
 	},
 };
 
-export default apiDefinitions;
+export default VowelApis;

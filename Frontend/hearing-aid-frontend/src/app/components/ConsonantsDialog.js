@@ -9,34 +9,14 @@ import {
 	DialogTitle,
 } from "@mui/material";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
-import RestartAltIcon from "@mui/icons-material/RestartAlt";
 import LogoutIcon from "@mui/icons-material/Logout";
-import apiDefinitions from "../../apis/apiDefinitions";
+import ConsonantsApis from "../../apis/ConsonantsApis";
 import CircularProgress from "@mui/material/CircularProgress";
 
-const QuizDialog = ({ open, onClose, quizType }) => {
-	const questions = [
-		{
-			id: 1,
-			question: "ඔයාට කොහොම ද?",
-			audioUrl: "/audio/sound1.mp3",
-			options: ["Bell", "Horn", "Whistle", "Bird"],
-			correctAnswer: "Bell",
-		},
-		{
-			id: 2,
-			question: "Identify this musical instrument",
-			audioUrl: "/audio/sound2.mp3",
-			options: ["Piano", "Guitar", "Drums", "Violin"],
-			correctAnswer: "Piano",
-		},
-	];
-
-	const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+const ConsonantsDialog = ({ open, onClose, quizType }) => {
 	const [currentQuestion, setCurrentQuestion] = useState(null);
 	const [selectedAnswer, setSelectedAnswer] = useState("");
 	const [selectedPayload, setSelectedPayload] = useState(null);
-	const [score, setScore] = useState(0);
 	const [questionNumber, setQuestionNumber] = useState(1);
 	const [showResults, setShowResults] = useState(false);
 	const [shuffledOptions, setShuffledOptions] = useState([]);
@@ -48,10 +28,23 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 	const audioRef = useRef(null);
 	const [sessionId, setSessionId] = useState(null);
 
-	const handleAnswerSelect = (key, id, label) => {
+	const cleanAudioPath = (path) => {
+		return path?.replace("hearing_project_v0.01/", "") ?? "";
+	};
+
+	const handleAnswerSelect = (key, label) => {
 		// key = 'correct' | 'similar' | 'other'
 		setSelectedAnswer(label);
-		setSelectedPayload({ selected_key: key, selected_id: id });
+		setSelectedPayload({
+			session_id: sessionId,
+			user_id: "12345", // add real user ID here
+			word_presented: label ?? "",
+			chosen_option: key,
+			is_verification: questionNumber % 2 === 0, // true for even numbers, false for odd
+			consonant_tested:
+				currentQuestion?.options?.correct_answer?.changing_consonant ?? "",
+			timestamp: new Date().toISOString(),
+		});
 	};
 
 	const handlePlayAudio = () => {
@@ -66,13 +59,10 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 		setIsSubmitting(true);
 		try {
 			// submit answer
-			const response = await apiDefinitions.submitAnswer(
-				sessionId,
-				selectedPayload
-			);
+			const response = await ConsonantsApis.submitAnswer(selectedPayload);
 
 			// determine correctness locally (server may also return this)
-			const wasCorrect = selectedPayload?.selected_key === "correct";
+			const wasCorrect = selectedPayload?.chosen_option === "correct";
 			setAnswerCorrect(wasCorrect);
 			setShowFeedback(true);
 
@@ -85,28 +75,16 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 				return;
 			}
 
-			// if API returned next question directly, use it; otherwise request nextVowel
-			if (response && response.data) {
-				// empty object or null indicates no more questions
-				const next = response.data;
-				if (
-					!next ||
-					(Object.keys(next).length === 0 && next.constructor === Object)
-				) {
-					handleShowResults();
-				} else {
-					setCurrentQuestion(next);
-					setQuestionNumber((p) => p + 1);
-				}
+			setIsSubmitting(true);
+			const nextQuestionResponse = await ConsonantsApis.nextConsonant(
+				sessionId
+			);
+			if (nextQuestionResponse.data) {
+				setCurrentQuestion(nextQuestionResponse.data);
+				setIsSubmitting(false);
+				setQuestionNumber((p) => p + 1);
 			} else {
-				// fallback: ask server for next question
-				const nextResp = await apiDefinitions.nextVowel(sessionId);
-				if (nextResp && nextResp.data) {
-					setCurrentQuestion(nextResp.data);
-					setQuestionNumber((p) => p + 1);
-				} else {
-					handleShowResults();
-				}
+				throw new Error("No question data received");
 			}
 		} catch (error) {
 			console.error("Error submitting answer:", error);
@@ -130,7 +108,7 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 		setShowResults(true);
 
 		// Fetch results from the API
-		const resultsResponse = await apiDefinitions.getResults(sessionId);
+		const resultsResponse = await ConsonantsApis.getResults(sessionId);
 		if (resultsResponse && resultsResponse.data) {
 			const data = resultsResponse.data;
 			// Process and display results
@@ -140,8 +118,8 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 			// { vowel, correct, incorrect, attempts } objects. Sum the
 			// `correct` fields to get the total correct answers.
 			let totalCorrect = 0;
-			if (Array.isArray(data.vowels_tested)) {
-				totalCorrect = data.vowels_tested.reduce((sum, v) => {
+			if (Array.isArray(data.consonants_tested)) {
+				totalCorrect = data.consonants_tested.reduce((sum, v) => {
 					// v.correct may be numeric or string; coerce to Number safely
 					const c = Number(v.correct) || 0;
 					return sum + c;
@@ -157,19 +135,21 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 		}
 	};
 
-	const vowelStartSession = async () => {
+	const consonantsStartSession = async () => {
 		try {
 			const payload = {
 				user_id: "12345",
-			}; // Add any necessary payload data here
+			};
 
 			setIsSubmitting(true);
-			const response = await apiDefinitions.startVowels(payload);
+			const response = await ConsonantsApis.startConsonants(payload);
 
 			if (response.data && response.data.session_id) {
 				const session = response.data.session_id;
 				setSessionId(session);
-				const firstQuestionResponse = await apiDefinitions.nextVowel(session);
+				const firstQuestionResponse = await ConsonantsApis.nextConsonant(
+					session
+				);
 				if (firstQuestionResponse.data) {
 					setCurrentQuestion(firstQuestionResponse.data);
 					setIsSubmitting(false);
@@ -185,8 +165,8 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 	};
 
 	useEffect(() => {
-		if (quizType === "vowels" && open) {
-			vowelStartSession();
+		if (quizType === "consonants" && open) {
+			consonantsStartSession();
 		}
 	}, [quizType, open]);
 
@@ -200,17 +180,14 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 		const options = [
 			{
 				key: "correct",
-				id: currentQuestion?.correct?.id ?? null,
-				label: currentQuestion?.correct?.sinhala_word ?? "",
+				label: currentQuestion?.options?.correct_answer?.word ?? "",
 			},
 			{
 				key: "similar",
-				id: currentQuestion?.similar?.id ?? null,
-				label: currentQuestion?.similar?.sinhala_word ?? "",
+				label: currentQuestion?.options?.similar_answer?.word ?? "",
 			},
 			{
 				key: "other",
-				id: null,
 				label: "Other",
 			},
 		];
@@ -252,8 +229,8 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 								{correctAnswersCount} / {resultData?.total_words_tested}
 							</Typography>
 							<Grid container spacing={1} sx={{ mb: 1 }}>
-								{resultData?.vowels_tested.map((v, i) => (
-									<Grid item size={6} key={`vowel-result-${i}`}>
+								{resultData?.consonants_tested.map((v, i) => (
+									<Grid item size={6} key={`consonant-result-${i}`}>
 										<Typography
 											variant="h5"
 											align="center"
@@ -265,7 +242,7 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 													: "error"
 											}
 										>
-											{v.vowel}
+											{v.consonant}
 										</Typography>
 										<Typography
 											variant="body1"
@@ -279,13 +256,13 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 							</Grid>
 							<Typography variant="body1" align="center" gutterBottom>
 								You have Trouble Hearing{" "}
-								{resultData?.vowels_tested
+								{resultData?.consonants_tested
 									?.filter((v) => Number(v.incorrect) >= 1)
 									.map((v, i) => (
 										<span key={`vowel-result-${i}`}>
-											{v.vowel}
+											{v.consonant}
 											{i <
-											resultData.vowels_tested.filter(
+											resultData.consonants_tested.filter(
 												(v) => Number(v.incorrect) >= 1
 											).length -
 												1
@@ -293,7 +270,7 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 												: ""}
 										</span>
 									))}{" "}
-								vowels.
+								consonants.
 							</Typography>
 							<Grid container justifyContent="center" sx={{ mt: 3 }}>
 								<Button
@@ -340,7 +317,9 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 							</Button>
 							<audio
 								ref={audioRef}
-								src={currentQuestion?.correct?.audio_path}
+								src={cleanAudioPath(
+									currentQuestion?.options?.correct_answer?.audio_path
+								)}
 							/>
 						</Grid>
 
@@ -356,33 +335,53 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 										<Button
 											fullWidth
 											variant="outlined"
-											onClick={() =>
-												handleAnswerSelect(opt.key, opt.id, opt.label)
-											}
+											onClick={() => handleAnswerSelect(opt.key, opt.label)}
 											sx={{
 												py: 2,
 												borderRadius: 1,
 												fontSize: "1.1rem",
 												minWidth: "250px",
 												textTransform: "none",
+												border:
+													selectedAnswer === opt.label
+														? "2px solid"
+														: "1px solid",
 												borderColor:
 													selectedAnswer === opt.label
 														? "primary.main"
 														: "#e0e0e0",
-												color: "primary.main",
+												color:
+													selectedAnswer === opt.label
+														? "primary.dark"
+														: "primary.main",
 												minHeight: "60px",
 												backgroundColor:
 													showFeedback && selectedAnswer === opt.label
 														? answerCorrect
 															? "rgba(76,175,80,0.08)"
 															: "rgba(244,67,54,0.08)"
+														: selectedAnswer === opt.label
+														? "rgba(25, 118, 210, 0.08)"
 														: "transparent",
 												transform:
 													showFeedback && selectedAnswer === opt.label
 														? "scale(1.03)"
+														: selectedAnswer === opt.label
+														? "scale(1.02)"
 														: "none",
 												transition:
-													"transform .15s ease, background-color .2s ease",
+													"transform .15s ease, background-color .2s ease, border .2s ease",
+												boxShadow:
+													selectedAnswer === opt.label
+														? "0 2px 4px rgba(0,0,0,0.1)"
+														: "none",
+												"&:hover": {
+													backgroundColor:
+														selectedAnswer === opt.label
+															? "rgba(25, 118, 210, 0.12)"
+															: "rgba(0, 0, 0, 0.04)",
+													borderColor: "primary.main",
+												},
 											}}
 										>
 											{opt.label}
@@ -429,9 +428,7 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 									bgcolor: !selectedAnswer ? "#e0e0e0" : "primary.main",
 								}}
 							>
-								{currentQuestionIndex === questions.length - 1
-									? "Finish"
-									: "Next Question"}
+								{questionNumber === 8 ? "Finish" : "Next Question"}
 							</Button>
 						</Grid>
 					</Grid>
@@ -441,4 +438,4 @@ const QuizDialog = ({ open, onClose, quizType }) => {
 	);
 };
 
-export default QuizDialog;
+export default ConsonantsDialog;
