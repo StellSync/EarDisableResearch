@@ -9,6 +9,7 @@ from motor.motor_asyncio import AsyncIOMotorDatabase
 from ..db import db, get_database
 from ..schemas_wiyanjana import (
     WiyanjanaSessionStart,
+    WiyanjanaSessionStartRequest,
     WiyanjanaOptions,
     WiyanjanaUserChoice,
     WiyanjanaSessionResult,
@@ -196,7 +197,7 @@ def make_options_from_words(main_word: Dict, similar_word: Optional[Dict]) -> Di
 
 # Routes
 @router.get("/all")
-async def get_all_consonant_words(db: AsyncIOMotorDatabase = Depends(get_database)):
+async def get_all_wiyanjana_words(db: AsyncIOMotorDatabase = Depends(get_database)):
     cursor = db["consonant_words"].find()
     docs = await cursor.to_list(None)
     for d in docs:
@@ -205,11 +206,11 @@ async def get_all_consonant_words(db: AsyncIOMotorDatabase = Depends(get_databas
 
 
 @router.post("/start", response_model=WiyanjanaSessionStart)
-async def start_session(db: AsyncIOMotorDatabase = Depends(get_database)):
-    """Start a new session"""
+async def start_session(request: WiyanjanaSessionStartRequest, db: AsyncIOMotorDatabase = Depends(get_database)):
+    """Start a new session with the provided user ID"""
     session = {
         "session_id": str(uuid.uuid4()),
-        "user_id": f"test_user_{random.randint(1000, 9999)}",
+        "user_id": request.user_id,
         "started_at": datetime.utcnow(),
         "consonants_to_verify": [],     # list of consonant characters queued for verification (strings)
         "verified_consonants": [],      # list of consonant characters already verified

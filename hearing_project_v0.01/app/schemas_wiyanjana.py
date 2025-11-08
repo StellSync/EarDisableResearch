@@ -12,6 +12,10 @@ class WiyanjanaOptions(BaseModel):
     similar_answer: WiyanjanaAnswer
     other_option: bool = True
 
+class WiyanjanaSessionStartRequest(BaseModel):
+    """Request model for starting a new session"""
+    user_id: str
+
 class WiyanjanaSessionStart(BaseModel):
     session_id: str
     user_id: str
