@@ -12,9 +12,9 @@ DB_NAME = os.getenv("DB_NAME", "hearingdb")
 COLLECTION_NAME = "consonant_words"  # New collection for consonant words
 
 # Input JSON file path (relative to this script)
-THIS_DIR = Path(__file__).parent
-ROOT_DIR = THIS_DIR.parent.parent
-INPUT_JSON = ROOT_DIR / "wiyanjana_words_consonants_firstletter.json"
+# THIS_DIR = Path(__file__).parent
+# ROOT_DIR = THIS_DIR.parent.parent
+INPUT_JSON = "hearing_project_v0.01/scripts/data/wiyanjana_words_consonants_firstletter.json"
 
 async def seed_consonant_words():
     # Connect to MongoDB
