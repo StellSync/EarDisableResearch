@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Typography, Button, Grid, Card, CardContent } from "@mui/material";
 import VowelDialog from "../components/VowelDialog";
 import ConsonantsDialog from "../components/ConsonantsDialog";
+import SentenceDialog from "../components/SentenceDialog";
 
 const Form = () => {
 	const [openVowelQuiz, setOpenVowelQuiz] = useState(false);
@@ -246,6 +247,11 @@ const Form = () => {
 			<ConsonantsDialog
 				open={openConsonantQuiz}
 				onClose={() => setOpenConsonantQuiz(false)}
+				quizType={quizType}
+			/>
+			<SentenceDialog
+				open={openSentenceQuiz}
+				onClose={() => setOpenSentenceQuiz(false)}
 				quizType={quizType}
 			/>
 		</>
