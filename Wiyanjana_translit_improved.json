@@ -640,7 +640,33 @@
           "Gama",
           "Gala"
         ]
-      },
+      }
+    ],
+    "tokens": [
+      "Sal",
+      "Hal",
+      "Sata",
+      "Hata",
+      "Saaya",
+      "Yaaya",
+      "Sihiya",
+      "Pihiya",
+      "Sita",
+      "Lita",
+      "Maalaya",
+      "Kaalaya",
+      "Hiina",
+      "Bhiiya",
+      "Maasa",
+      "Maara",
+      "Kaha",
+      "Kada",
+      "Gama",
+      "Gala"
+    ]
+  },
+  "ක්‍රියාකාරකම-07": {
+    "items": [
       {
         "index": "01",
         "words": [
@@ -713,26 +739,6 @@
       }
     ],
     "tokens": [
-      "Sal",
-      "Hal",
-      "Sata",
-      "Hata",
-      "Saaya",
-      "Yaaya",
-      "Sihiya",
-      "Pihiya",
-      "Sita",
-      "Lita",
-      "Maalaya",
-      "Kaalaya",
-      "Hiina",
-      "Bhiiya",
-      "Maasa",
-      "Maara",
-      "Kaha",
-      "Kada",
-      "Gama",
-      "Gala",
       "Kada",
       "Vada",
       "Vaැli",

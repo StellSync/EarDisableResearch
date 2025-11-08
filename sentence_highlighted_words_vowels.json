@@ -1,0 +1,142 @@
+[
+  {
+    "section": "NoHeader",
+    "index": "01",
+    "sentence_text": "ඔහු ගසේ මල කැඩුවා || ඔහු ගසේ මුල කැඩුවා",
+    "highlight_pos": 1,
+    "highlight_sinhala": "මල",
+    "highlight_singlish": "Mala",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "NoHeader",
+    "index": "01",
+    "sentence_text": "ඔහු ගසේ මල කැඩුවා || ඔහු ගසේ මුල කැඩුවා",
+    "highlight_pos": 2,
+    "highlight_sinhala": "මුල",
+    "highlight_singlish": "Mula",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u"
+  },
+  {
+    "section": "NoHeader",
+    "index": "02",
+    "sentence_text": "නංගී කජු කන්න ආසයි || නංගී කේජු කන්න ආසයි",
+    "highlight_pos": 1,
+    "highlight_sinhala": "කජු",
+    "highlight_singlish": "Kaju",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "NoHeader",
+    "index": "02",
+    "sentence_text": "නංගී කජු කන්න ආසයි || නංගී කේජු කන්න ආසයි",
+    "highlight_pos": 2,
+    "highlight_sinhala": "කේජු",
+    "highlight_singlish": "Keeju",
+    "main_vowel_char": "ඒ",
+    "main_vowel_name": "ee"
+  },
+  {
+    "section": "NoHeader",
+    "index": "03",
+    "sentence_text": "එතන වලක් තියනවා || එතන විලක් තියනවා",
+    "highlight_pos": 1,
+    "highlight_sinhala": "වලක්",
+    "highlight_singlish": "Valak",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "NoHeader",
+    "index": "03",
+    "sentence_text": "එතන වලක් තියනවා || එතන විලක් තියනවා",
+    "highlight_pos": 2,
+    "highlight_sinhala": "විලක්",
+    "highlight_singlish": "Vilak",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "NoHeader",
+    "index": "04",
+    "sentence_text": "ගෝනියේ හාල් තියෙනවා || ගෝනියේ හිල් තියෙනවා",
+    "highlight_pos": 1,
+    "highlight_sinhala": "හාල්",
+    "highlight_singlish": "Haal",
+    "main_vowel_char": "ආ",
+    "main_vowel_name": "aa"
+  },
+  {
+    "section": "NoHeader",
+    "index": "04",
+    "sentence_text": "ගෝනියේ හාල් තියෙනවා || ගෝනියේ හිල් තියෙනවා",
+    "highlight_pos": 2,
+    "highlight_sinhala": "හිල්",
+    "highlight_singlish": "Hil",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  },
+  {
+    "section": "NoHeader",
+    "index": "05",
+    "sentence_text": "තාත්තා කුඩයක් ගෙනවා || තාත්තා කූඩයක් ගෙනවා",
+    "highlight_pos": 1,
+    "highlight_sinhala": "කුඩයක්",
+    "highlight_singlish": "Kudayak",
+    "main_vowel_char": "උ",
+    "main_vowel_name": "u"
+  },
+  {
+    "section": "NoHeader",
+    "index": "05",
+    "sentence_text": "තාත්තා කුඩයක් ගෙනවා || තාත්තා කූඩයක් ගෙනවා",
+    "highlight_pos": 2,
+    "highlight_sinhala": "කූඩයක්",
+    "highlight_singlish": "Kuudayak",
+    "main_vowel_char": "ඌ",
+    "main_vowel_name": "uu"
+  },
+  {
+    "section": "NoHeader",
+    "index": "06",
+    "sentence_text": "ගිය මාසේ කඩපු තැඹිලි ටික පල් වෙලා || ගිය මාසේ කඩපු තැඹිලි ටික පොල් වෙලා",
+    "highlight_pos": 1,
+    "highlight_sinhala": "පල්",
+    "highlight_singlish": "Pal",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "NoHeader",
+    "index": "06",
+    "sentence_text": "ගිය මාසේ කඩපු තැඹිලි ටික පල් වෙලා || ගිය මාසේ කඩපු තැඹිලි ටික පොල් වෙලා",
+    "highlight_pos": 2,
+    "highlight_sinhala": "පොල්",
+    "highlight_singlish": "Pol",
+    "main_vowel_char": "ඔ",
+    "main_vowel_name": "o"
+  },
+  {
+    "section": "NoHeader",
+    "index": "07",
+    "sentence_text": "මල්ලී බල්ලාව දැක්කාද? || මල්ලී බිල්ලාව දැක්කාද?",
+    "highlight_pos": 1,
+    "highlight_sinhala": "බල්ලාව",
+    "highlight_singlish": "Ballaava",
+    "main_vowel_char": "අ",
+    "main_vowel_name": "a"
+  },
+  {
+    "section": "NoHeader",
+    "index": "07",
+    "sentence_text": "මල්ලී බල්ලාව දැක්කාද? || මල්ලී බිල්ලාව දැක්කාද?",
+    "highlight_pos": 2,
+    "highlight_sinhala": "බිල්ලාව",
+    "highlight_singlish": "Billaava",
+    "main_vowel_char": "ඉ",
+    "main_vowel_name": "i"
+  }
+]
