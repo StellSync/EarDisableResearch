@@ -1,19 +1,29 @@
-# app/schemas_ActivityResults.py
 from pydantic import BaseModel, Field
-from typing import List, Optional, Dict
+from typing import List, Optional, Dict, Any
 from datetime import datetime
 
+# ResultItem: unified shape returned to frontend (includes activity, source_collection, raw)
 class ResultItem(BaseModel):
     id: str
+    activity: str
+    source_collection: str
     session_id: Optional[str] = None
+    session_user_id: Optional[str] = None
     user_id: Optional[str] = None
+    question_id: Optional[str] = None
+    word_id: Optional[str] = None
     word_presented: Optional[str] = None
+    vowel: Optional[str] = None
     chosen_option: Optional[str] = None  # "correct" | "similar" | "other"
     is_verification: Optional[bool] = None
-    consonant_tested: Optional[Dict[str, str]] = None
+    consonant_tested: Optional[Dict[str, Any]] = None
     timestamp: Optional[datetime] = None
     section: Optional[str] = None
     index: Optional[str] = None
+    # raw contains original (sanitized) DB document for debugging / drilldown
+    raw: Optional[Dict[str, Any]] = None
+    # optional resolved canonical word doc (if attached)
+    word_doc: Optional[Dict[str, Any]] = None
 
 class PaginatedResults(BaseModel):
     total: int
