@@ -1,15 +1,21 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Typography, Button, Grid, Card, CardContent } from "@mui/material";
 import VowelDialog from "../components/VowelDialog";
 import ConsonantsDialog from "../components/ConsonantsDialog";
 import SentenceDialog from "../components/SentenceDialog";
+import PatientApis from "@/apis/PatientApis";
 
 const Form = () => {
 	const [openVowelQuiz, setOpenVowelQuiz] = useState(false);
 	const [openConsonantQuiz, setOpenConsonantQuiz] = useState(false);
 	const [openSentenceQuiz, setOpenSentenceQuiz] = useState(false);
 	const [quizType, setQuizType] = useState("");
+	const [swaraData, setSwaraData] = useState([]);
+	const [viyanjanaData, setWiyanjanaData] = useState([]);
+	const [sentenceData, setSentenceData] = useState([]);
+
+	const userId = "1234"; // Replace with actual user ID
 
 	const handleStartQuiz = (type) => {
 		setQuizType(type);
@@ -24,6 +30,62 @@ const Form = () => {
 			setOpenSentenceQuiz(true);
 		}
 	};
+
+	const fetchSessionData = async (swaraID, wiyanjanaID, sentenceID) => {
+		console.log("Fetching session data for IDs:", swaraID);
+		try {
+			if (swaraID) {
+				const swaraResponse = await PatientApis.getSessionSummaryByType(
+					swaraID
+				);
+				setSwaraData(swaraResponse.data);
+			}
+			if (wiyanjanaID) {
+				const wiyanjanaResponse = await PatientApis.getSessionSummaryByType(
+					wiyanjanaID
+				);
+				setWiyanjanaData(wiyanjanaResponse.data);
+			}
+			if (sentenceID) {
+				const sentenceResponse = await PatientApis.getSessionSummaryByType(
+					sentenceID
+				);
+				setSentenceData(sentenceResponse.data);
+			}
+		} catch (error) {
+			console.error("Error fetching session data:", error);
+		}
+	};
+
+	useEffect(() => {
+		const fetchData = async () => {
+			try {
+				const response = await PatientApis.getLastRecordedSession(
+					userId,
+					"swara"
+				);
+
+				const response2 = await PatientApis.getLastRecordedSession(
+					userId,
+					"wiyanjana"
+				);
+
+				const response3 = await PatientApis.getLastRecordedSession(
+					userId,
+					"sentence"
+				);
+				fetchSessionData(
+					response.data.items[0]?.session_id,
+					response2.data.items[0]?.session_id,
+					response3.data.items[0]?.session_id
+				);
+			} catch (error) {
+				console.error("Error fetching last recorded session:", error);
+			}
+		};
+
+		fetchData();
+	}, [userId]);
 
 	return (
 		<>
@@ -219,21 +281,24 @@ const Form = () => {
 					</Grid>
 				</Grid>
 
+				<Typography variant="h5" component="h2" sx={{ mt: 6, mb: 3 }}>
+					Last Recorded Session Accuracy
+				</Typography>
 				<Grid item xs={12} sx={{ mt: 4, textAlign: "center" }}>
 					<Grid container spacing={2} justifyContent="center">
 						<Grid item>
 							<Typography variant="body2" color="text.secondary">
-								Vowels: 100
+								Vowels: {swaraData?.accuracy * 100 || 0}%
 							</Typography>
 						</Grid>
 						<Grid item>
 							<Typography variant="body2" color="text.secondary">
-								Consonant : 33
+								Consonants: {viyanjanaData?.accuracy * 100 || 0}%
 							</Typography>
 						</Grid>
 						<Grid item>
 							<Typography variant="body2" color="text.secondary">
-								Sentence: 67
+								Sentences: {sentenceData?.accuracy * 100 || 0}%
 							</Typography>
 						</Grid>
 					</Grid>

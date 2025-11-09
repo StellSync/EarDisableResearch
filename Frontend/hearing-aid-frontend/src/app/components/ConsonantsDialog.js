@@ -29,7 +29,7 @@ const ConsonantsDialog = ({ open, onClose, quizType }) => {
 	const [sessionId, setSessionId] = useState(null);
 
 	const cleanAudioPath = (path) => {
-		return path?.replace("hearing_project_v0.01/", "") ?? "";
+		return path?.replace("hearing_project_v0.01/", "") ?? null;
 	};
 
 	const handleAnswerSelect = (key, label) => {
@@ -306,6 +306,7 @@ const ConsonantsDialog = ({ open, onClose, quizType }) => {
 								color="success"
 								startIcon={<PlayArrowIcon />}
 								onClick={handlePlayAudio}
+								disabled={!currentQuestion?.options?.correct_answer?.audio_path}
 								sx={{
 									borderRadius: 1,
 									fontSize: "1rem",
@@ -313,14 +314,30 @@ const ConsonantsDialog = ({ open, onClose, quizType }) => {
 									mb: 4,
 								}}
 							>
-								Play Audio
+								{currentQuestion?.options?.correct_answer?.audio_path
+									? "Play Audio"
+									: "Audio Not Available"}
 							</Button>
 							<audio
 								ref={audioRef}
 								src={cleanAudioPath(
 									currentQuestion?.options?.correct_answer?.audio_path
 								)}
+								onError={(e) => {
+									console.error("Audio loading error:", e);
+									e.target.onerror = null; // Prevent infinite error loops
+								}}
 							/>
+							{!currentQuestion?.options?.correct_answer?.audio_path && (
+								<Typography
+									color="error"
+									variant="caption"
+									display="block"
+									sx={{ mt: 1 }}
+								>
+									Audio file is not available for this question
+								</Typography>
+							)}
 						</Grid>
 
 						<Grid item xs={12} sx={{ mb: 3 }}>
