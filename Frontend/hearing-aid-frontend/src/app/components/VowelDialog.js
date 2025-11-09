@@ -1,20 +1,19 @@
 "use client";
-import React, { useState, useRef, useEffect } from "react";
+import LogoutIcon from "@mui/icons-material/Logout";
+import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import {
+	Button,
 	Dialog,
 	DialogContent,
-	Typography,
-	Button,
-	Grid,
 	DialogTitle,
+	Grid,
+	Typography,
 } from "@mui/material";
-import PlayArrowIcon from "@mui/icons-material/PlayArrow";
-import LogoutIcon from "@mui/icons-material/Logout";
-import VowelApis from "../../apis/VowelApis";
 import CircularProgress from "@mui/material/CircularProgress";
+import { useEffect, useRef, useState } from "react";
+import VowelApis from "../../apis/VowelApis";
 
 const VowelDialog = ({ open, onClose, quizType }) => {
-	
 	const [currentQuestion, setCurrentQuestion] = useState(null);
 	const [selectedAnswer, setSelectedAnswer] = useState("");
 	const [selectedPayload, setSelectedPayload] = useState(null);
@@ -47,10 +46,7 @@ const VowelDialog = ({ open, onClose, quizType }) => {
 		setIsSubmitting(true);
 		try {
 			// submit answer
-			const response = await VowelApis.submitAnswer(
-				sessionId,
-				selectedPayload
-			);
+			const response = await VowelApis.submitAnswer(sessionId, selectedPayload);
 
 			// determine correctness locally (server may also return this)
 			const wasCorrect = selectedPayload?.selected_key === "correct";
@@ -105,6 +101,8 @@ const VowelDialog = ({ open, onClose, quizType }) => {
 		setQuestionNumber(1);
 		setShowResults(false);
 		setCurrentQuestion(null);
+		setResultData(null);
+		setCorrectAnswersCount(0);
 	};
 
 	const handleShowResults = async () => {
@@ -239,9 +237,9 @@ const VowelDialog = ({ open, onClose, quizType }) => {
 											variant="h5"
 											align="center"
 											color={
-												v.correct > 1
+												v.correct > v.incorrect
 													? "success"
-													: v.correct > 1
+													: v.correct === v.incorrect
 													? "warning"
 													: "error"
 											}
@@ -258,24 +256,30 @@ const VowelDialog = ({ open, onClose, quizType }) => {
 									</Grid>
 								))}
 							</Grid>
-							<Typography variant="body1" align="center" gutterBottom>
-								You have Trouble Hearing{" "}
-								{resultData?.vowels_tested
-									?.filter((v) => Number(v.incorrect) >= 1)
-									.map((v, i) => (
-										<span key={`vowel-result-${i}`}>
-											{v.vowel}
-											{i <
-											resultData.vowels_tested.filter(
-												(v) => Number(v.incorrect) >= 1
-											).length -
-												1
-												? ", "
-												: ""}
-										</span>
-									))}{" "}
-								vowels.
-							</Typography>
+							{resultData?.total_words_tested === correctAnswersCount ? (
+								<Typography variant="body1" align="center" gutterBottom>
+									Excellent! You recognized all sentences correctly.
+								</Typography>
+							) : (
+								<Typography variant="body1" align="center" gutterBottom>
+									You have Trouble Hearing{" "}
+									{resultData?.vowels_tested
+										?.filter((v) => Number(v.incorrect) >= 1)
+										.map((v, i) => (
+											<span key={`vowel-result-${i}`}>
+												{v.vowel}
+												{i <
+												resultData.vowels_tested.filter(
+													(v) => Number(v.incorrect) >= 1
+												).length -
+													1
+													? ", "
+													: ""}
+											</span>
+										))}{" "}
+									vowels.
+								</Typography>
+							)}
 							<Grid container justifyContent="center" sx={{ mt: 3 }}>
 								<Button
 									variant="contained"
@@ -432,9 +436,7 @@ const VowelDialog = ({ open, onClose, quizType }) => {
 									bgcolor: !selectedAnswer ? "#e0e0e0" : "primary.main",
 								}}
 							>
-								{questionNumber === 8
-									? "Finish"
-									: "Next Question"}
+								{questionNumber === 8 ? "Finish" : "Next Question"}
 							</Button>
 						</Grid>
 					</Grid>
