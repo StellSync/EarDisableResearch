@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Setup Guide
 
-## Getting Started
+This project uses **Next.js** for the frontend and **FastAPI** for the backend.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 1. Start the Backend
+
+Run the FastAPI server:
+
+```
+uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+API will be available at:
+```
+http://127.0.0.1:8000
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 2. Start the Frontend
 
-## Learn More
+Inside the frontend directory:
 
-To learn more about Next.js, take a look at the following resources:
+```
+npm install
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Then open the app in your browser:
+```
+http://localhost:3000
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The UI will live-update when edits are made.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Pages / Routes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Page | URL | Description |
+|------|-----|-------------|
+| Quiz / Activities | http://localhost:3000/form | User interactivity and exercises |
+| Doctor Dashboard | http://localhost:3000/doc-view | Doctor's patient overview |
+
+---
+
+## Environment Configuration
+
+Make sure the backend URL is set in your `.env` file:
+
+```
+NEXT_PUBLIC_API_URL=http://127.0.0.1:8000
+```
+
+---
+
+## User ID Configuration
+
+The app currently requires a `user_id` (from your login system).  
+Update these locations with a valid user ID:
+
+| File | Line Number(s) | Purpose |
+|------|----------------|---------|
+| `app/form/page.jsx` | line 18 | Main form |
+| `app/component/VowelDialog.jsx` | line 142 | Vowel exercise dialog |
+| `app/component/ConsonantsDialog.jsx` | line 40, 141 | Consonant exercise dialog |
+| `app/component/SentenceDialog.jsx` | line 145 | Sentence forming activity |
+
+---
+
+## Doctor View Setup
+
+To load patient data into the Doctor Dashboard, modify:
+
+```
+app/doc-view/page.jsx
+```
+
+Fetch and display the patient list from your backend.
+
+---
+
+## Adding More Activities
+
+When adding a new activity:
+
+1. **Add any audio files** used by the activity into the `public/` folder
+
+This ensures audio loads correctly.
