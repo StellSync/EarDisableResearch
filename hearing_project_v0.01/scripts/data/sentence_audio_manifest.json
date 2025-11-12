@@ -1,0 +1,268 @@
+[
+  {
+    "section": "NoHeader",
+    "index": "01",
+    "sentences": [
+      "ඔහු ගසේ මල කැඩුවා",
+      "ඔහු ගසේ මුල කැඩුවා"
+    ],
+    "sentences_translit": [
+      "Ohu gasee mala kaැduvaa",
+      "Ohu gasee mula kaැduvaa"
+    ],
+    "highlighted_words": [
+      "ඔහු",
+      "ගසේ"
+    ],
+    "highlighted_translit": [
+      "Ohu",
+      "Gasee"
+    ],
+    "highlighted_vowels": [
+      {
+        "word": "ඔහු",
+        "singlish": "Ohu",
+        "main_vowel_char": "ඔ",
+        "main_vowel_name": "o"
+      },
+      {
+        "word": "ගසේ",
+        "singlish": "Gasee",
+        "main_vowel_char": "අ",
+        "main_vowel_name": "a"
+      }
+    ],
+    "audio_paths": [
+      "sentence_audio/NoHeader/01_1_ohu_gsee_ml_kaedduvaa.mp3",
+      "sentence_audio/NoHeader/01_2_ohu_gsee_mul_kaedduvaa.mp3"
+    ]
+  },
+  {
+    "section": "NoHeader",
+    "index": "02",
+    "sentences": [
+      "නංගී කජු කන්න ආසයි",
+      "නංගී කේජු කන්න ආසයි"
+    ],
+    "sentences_translit": [
+      "Nngii kaju kanna aasayi",
+      "Nngii keeju kanna aasayi"
+    ],
+    "highlighted_words": [
+      "නංගී",
+      "කජු"
+    ],
+    "highlighted_translit": [
+      "Nngii",
+      "Kaju"
+    ],
+    "highlighted_vowels": [
+      {
+        "word": "නංගී",
+        "singlish": "Nngii",
+        "main_vowel_char": "අ",
+        "main_vowel_name": "a"
+      },
+      {
+        "word": "කජු",
+        "singlish": "Kaju",
+        "main_vowel_char": "අ",
+        "main_vowel_name": "a"
+      }
+    ],
+    "audio_paths": [
+      "sentence_audio/NoHeader/02_1_nNgii_kju_knn_aasyi.mp3",
+      "sentence_audio/NoHeader/02_2_nNgii_keeju_knn_aasyi.mp3"
+    ]
+  },
+  {
+    "section": "NoHeader",
+    "index": "03",
+    "sentences": [
+      "එතන වලක් තියනවා",
+      "එතන විලක් තියනවා"
+    ],
+    "sentences_translit": [
+      "Etana valak tiyanavaa",
+      "Etana vilak tiyanavaa"
+    ],
+    "highlighted_words": [
+      "එතන",
+      "වලක්"
+    ],
+    "highlighted_translit": [
+      "Etana",
+      "Valak"
+    ],
+    "highlighted_vowels": [
+      {
+        "word": "එතන",
+        "singlish": "Etana",
+        "main_vowel_char": "එ",
+        "main_vowel_name": "e"
+      },
+      {
+        "word": "වලක්",
+        "singlish": "Valak",
+        "main_vowel_char": "අ",
+        "main_vowel_name": "a"
+      }
+    ],
+    "audio_paths": [
+      "sentence_audio/NoHeader/03_1_etn_vlk_tiynvaa.mp3",
+      "sentence_audio/NoHeader/03_2_etn_vilk_tiynvaa.mp3"
+    ]
+  },
+  {
+    "section": "NoHeader",
+    "index": "04",
+    "sentences": [
+      "ගෝනියේ හාල් තියෙනවා",
+      "ගෝනියේ හිල් තියෙනවා"
+    ],
+    "sentences_translit": [
+      "Gooniyee haal tiyenavaa",
+      "Gooniyee hil tiyenavaa"
+    ],
+    "highlighted_words": [
+      "ගෝනියේ",
+      "හාල්"
+    ],
+    "highlighted_translit": [
+      "Gooniyee",
+      "Haal"
+    ],
+    "highlighted_vowels": [
+      {
+        "word": "ගෝනියේ",
+        "singlish": "Gooniyee",
+        "main_vowel_char": "ඕ",
+        "main_vowel_name": "oo"
+      },
+      {
+        "word": "හාල්",
+        "singlish": "Haal",
+        "main_vowel_char": "ආ",
+        "main_vowel_name": "aa"
+      }
+    ],
+    "audio_paths": [
+      "sentence_audio/NoHeader/04_1_gooniyee_haal_tiyenvaa.mp3",
+      "sentence_audio/NoHeader/04_2_gooniyee_hil_tiyenvaa.mp3"
+    ]
+  },
+  {
+    "section": "NoHeader",
+    "index": "05",
+    "sentences": [
+      "තාත්තා කුඩයක් ගෙනවා",
+      "තාත්තා කූඩයක් ගෙනවා"
+    ],
+    "sentences_translit": [
+      "Taattaa kudayak genavaa",
+      "Taattaa kuudayak genavaa"
+    ],
+    "highlighted_words": [
+      "තාත්තා",
+      "කුඩයක්"
+    ],
+    "highlighted_translit": [
+      "Taattaa",
+      "Kudayak"
+    ],
+    "highlighted_vowels": [
+      {
+        "word": "තාත්තා",
+        "singlish": "Taattaa",
+        "main_vowel_char": "ආ",
+        "main_vowel_name": "aa"
+      },
+      {
+        "word": "කුඩයක්",
+        "singlish": "Kudayak",
+        "main_vowel_char": "උ",
+        "main_vowel_name": "u"
+      }
+    ],
+    "audio_paths": [
+      "sentence_audio/NoHeader/05_1_taattaa_kuddyk_genvaa.mp3",
+      "sentence_audio/NoHeader/05_2_taattaa_kuuddyk_genvaa.mp3"
+    ]
+  },
+  {
+    "section": "NoHeader",
+    "index": "06",
+    "sentences": [
+      "ගිය මාසේ කඩපු තැඹිලි ටික පල් වෙලා",
+      "ගිය මාසේ කඩපු තැඹිලි ටික පොල් වෙලා"
+    ],
+    "sentences_translit": [
+      "Giya maasee kadapu taැඹili tika pal velaa",
+      "Giya maasee kadapu taැඹili tika pol velaa"
+    ],
+    "highlighted_words": [
+      "ගිය",
+      "මාසේ"
+    ],
+    "highlighted_translit": [
+      "Giya",
+      "Maasee"
+    ],
+    "highlighted_vowels": [
+      {
+        "word": "ගිය",
+        "singlish": "Giya",
+        "main_vowel_char": "ඉ",
+        "main_vowel_name": "i"
+      },
+      {
+        "word": "මාසේ",
+        "singlish": "Maasee",
+        "main_vowel_char": "ආ",
+        "main_vowel_name": "aa"
+      }
+    ],
+    "audio_paths": [
+      "sentence_audio/NoHeader/06_1_giy_maasee_kddpu_taembili.mp3",
+      "sentence_audio/NoHeader/06_1_giy_maasee_kddpu_taembili.mp3"
+    ]
+  },
+  {
+    "section": "NoHeader",
+    "index": "07",
+    "sentences": [
+      "මල්ලී බල්ලාව දැක්කාද?",
+      "මල්ලී බිල්ලාව දැක්කාද?"
+    ],
+    "sentences_translit": [
+      "Mallii ballaava daැkkaada?",
+      "Mallii billaava daැkkaada?"
+    ],
+    "highlighted_words": [
+      "මල්ලී",
+      "බල්ලාව"
+    ],
+    "highlighted_translit": [
+      "Mallii",
+      "Ballaava"
+    ],
+    "highlighted_vowels": [
+      {
+        "word": "මල්ලී",
+        "singlish": "Mallii",
+        "main_vowel_char": "අ",
+        "main_vowel_name": "a"
+      },
+      {
+        "word": "බල්ලාව",
+        "singlish": "Ballaava",
+        "main_vowel_char": "අ",
+        "main_vowel_name": "a"
+      }
+    ],
+    "audio_paths": [
+      "sentence_audio/NoHeader/07_1_mllii_bllaav_daekkaad.mp3",
+      "sentence_audio/NoHeader/07_2_mllii_billaav_daekkaad.mp3"
+    ]
+  }
+]

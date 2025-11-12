@@ -1,0 +1,764 @@
+{
+  "ක්‍රියාකාරකම-01": {
+    "items": [
+      {
+        "index": "01",
+        "words": [
+          "Pas",
+          "Bas"
+        ]
+      },
+      {
+        "index": "02",
+        "words": [
+          "Pol",
+          "Bol"
+        ]
+      },
+      {
+        "index": "03",
+        "words": [
+          "Pila",
+          "Bila"
+        ]
+      },
+      {
+        "index": "04",
+        "words": [
+          "Paya",
+          "Baya"
+        ]
+      },
+      {
+        "index": "05",
+        "words": [
+          "Pat",
+          "Bat"
+        ]
+      },
+      {
+        "index": "06",
+        "words": [
+          "Tayi",
+          "Dayi"
+        ]
+      },
+      {
+        "index": "07",
+        "words": [
+          "Kala",
+          "Gala"
+        ]
+      },
+      {
+        "index": "08",
+        "words": [
+          "Kaැla",
+          "Gaැla"
+        ]
+      },
+      {
+        "index": "09",
+        "words": [
+          "Kasa",
+          "Gasa"
+        ]
+      },
+      {
+        "index": "10",
+        "words": [
+          "Kalana",
+          "Galana"
+        ]
+      },
+      {
+        "index": "11",
+        "words": [
+          "Kara",
+          "Dara"
+        ]
+      },
+      {
+        "index": "12",
+        "words": [
+          "Kat",
+          "Dat"
+        ]
+      },
+      {
+        "index": "13",
+        "words": [
+          "Kala",
+          "Dala"
+        ]
+      },
+      {
+        "index": "14",
+        "words": [
+          "Faෑn",
+          "Vaෑn"
+        ]
+      },
+      {
+        "index": "15",
+        "words": [
+          "Feel",
+          "Veel"
+        ]
+      }
+    ],
+    "tokens": [
+      "Pas",
+      "Bas",
+      "Pol",
+      "Bol",
+      "Pila",
+      "Bila",
+      "Paya",
+      "Baya",
+      "Pat",
+      "Bat",
+      "Tayi",
+      "Dayi",
+      "Kala",
+      "Gala",
+      "Kaැla",
+      "Gaැla",
+      "Kasa",
+      "Gasa",
+      "Kalana",
+      "Galana",
+      "Kara",
+      "Dara",
+      "Kat",
+      "Dat",
+      "Kala",
+      "Dala",
+      "Faෑn",
+      "Vaෑn",
+      "Feel",
+      "Veel"
+    ]
+  },
+  "ක්‍රියාකාරකම-02": {
+    "items": [
+      {
+        "index": "01",
+        "words": [
+          "Kapa",
+          "Kaba"
+        ]
+      },
+      {
+        "index": "02",
+        "words": [
+          "Apa",
+          "Aba"
+        ]
+      },
+      {
+        "index": "03",
+        "words": [
+          "Opa",
+          "Oba"
+        ]
+      },
+      {
+        "index": "04",
+        "words": [
+          "Aepa",
+          "Aeba"
+        ]
+      },
+      {
+        "index": "05",
+        "words": [
+          "Vaැta",
+          "Vaැda"
+        ]
+      },
+      {
+        "index": "06",
+        "words": [
+          "Kata",
+          "Kada"
+        ]
+      },
+      {
+        "index": "07",
+        "words": [
+          "Ata",
+          "Ada"
+        ]
+      },
+      {
+        "index": "08",
+        "words": [
+          "Hota",
+          "Hoඞ"
+        ]
+      },
+      {
+        "index": "09",
+        "words": [
+          "Kootu",
+          "Koodu"
+        ]
+      },
+      {
+        "index": "10",
+        "words": [
+          "Ata",
+          "Ada"
+        ]
+      },
+      {
+        "index": "11",
+        "words": [
+          "Kata",
+          "Kada"
+        ]
+      },
+      {
+        "index": "12",
+        "words": [
+          "Mahata",
+          "Mahada"
+        ]
+      },
+      {
+        "index": "13",
+        "words": [
+          "Vata",
+          "Vada"
+        ]
+      },
+      {
+        "index": "14",
+        "words": [
+          "Pata",
+          "Pada"
+        ]
+      },
+      {
+        "index": "15",
+        "words": [
+          "Hata",
+          "Hada"
+        ]
+      }
+    ],
+    "tokens": [
+      "Kapa",
+      "Kaba",
+      "Apa",
+      "Aba",
+      "Opa",
+      "Oba",
+      "Aepa",
+      "Aeba",
+      "Vaැta",
+      "Vaැda",
+      "Kata",
+      "Kada",
+      "Ata",
+      "Ada",
+      "Hota",
+      "Hoඞ",
+      "Kootu",
+      "Koodu",
+      "Ata",
+      "Ada",
+      "Kata",
+      "Kada",
+      "Mahata",
+      "Mahada",
+      "Vata",
+      "Vada",
+      "Pata",
+      "Pada",
+      "Hata",
+      "Hada"
+    ]
+  },
+  "ක්‍රියාකාරකම-03": {
+    "items": [
+      {
+        "index": "01",
+        "words": [
+          "Ran",
+          "Ram"
+        ]
+      },
+      {
+        "index": "02",
+        "words": [
+          "Kat",
+          "Kan"
+        ]
+      },
+      {
+        "index": "03",
+        "words": [
+          "Mat",
+          "Mal"
+        ]
+      },
+      {
+        "index": "04",
+        "words": [
+          "Pit",
+          "Pil"
+        ]
+      },
+      {
+        "index": "05",
+        "words": [
+          "Bas",
+          "Bat"
+        ]
+      },
+      {
+        "index": "06",
+        "words": [
+          "Sil",
+          "Sit"
+        ]
+      },
+      {
+        "index": "07",
+        "words": [
+          "Lom",
+          "Lok"
+        ]
+      },
+      {
+        "index": "08",
+        "words": [
+          "Kot",
+          "Kos"
+        ]
+      },
+      {
+        "index": "09",
+        "words": [
+          "Kaar",
+          "Kaad"
+        ]
+      },
+      {
+        "index": "10",
+        "words": [
+          "Haal",
+          "Haat"
+        ]
+      }
+    ],
+    "tokens": [
+      "Ran",
+      "Ram",
+      "Kat",
+      "Kan",
+      "Mat",
+      "Mal",
+      "Pit",
+      "Pil",
+      "Bas",
+      "Bat",
+      "Sil",
+      "Sit",
+      "Lom",
+      "Lok",
+      "Kot",
+      "Kos",
+      "Kaar",
+      "Kaad",
+      "Haal",
+      "Haat"
+    ]
+  },
+  "ක්‍රියාකාරකම-04": {
+    "items": [
+      {
+        "index": "01",
+        "words": [
+          "Pihi",
+          "Mihi"
+        ]
+      },
+      {
+        "index": "02",
+        "words": [
+          "Pori",
+          "Lori"
+        ]
+      },
+      {
+        "index": "03",
+        "words": [
+          "Eyi",
+          "Yayi"
+        ]
+      },
+      {
+        "index": "04",
+        "words": [
+          "Pol",
+          "Tol"
+        ]
+      },
+      {
+        "index": "05",
+        "words": [
+          "Piti",
+          "Miti"
+        ]
+      },
+      {
+        "index": "06",
+        "words": [
+          "Baැla",
+          "Baැta"
+        ]
+      },
+      {
+        "index": "07",
+        "words": [
+          "Siita",
+          "Siila"
+        ]
+      },
+      {
+        "index": "08",
+        "words": [
+          "Paෑn",
+          "Kaැn"
+        ]
+      },
+      {
+        "index": "09",
+        "words": [
+          "Biit",
+          "Biima"
+        ]
+      },
+      {
+        "index": "10",
+        "words": [
+          "Pas",
+          "Pat"
+        ]
+      }
+    ],
+    "tokens": [
+      "Pihi",
+      "Mihi",
+      "Pori",
+      "Lori",
+      "Eyi",
+      "Yayi",
+      "Pol",
+      "Tol",
+      "Piti",
+      "Miti",
+      "Baැla",
+      "Baැta",
+      "Siita",
+      "Siila",
+      "Paෑn",
+      "Kaැn",
+      "Biit",
+      "Biima",
+      "Pas",
+      "Pat"
+    ]
+  },
+  "ක්‍රියාකාරකම-05": {
+    "items": [
+      {
+        "index": "01",
+        "words": [
+          "Pacha",
+          "Kacha"
+        ]
+      },
+      {
+        "index": "02",
+        "words": [
+          "Ham",
+          "Sam"
+        ]
+      },
+      {
+        "index": "03",
+        "words": [
+          "Boola",
+          "Koola"
+        ]
+      },
+      {
+        "index": "04",
+        "words": [
+          "Maala",
+          "Baala"
+        ]
+      },
+      {
+        "index": "05",
+        "words": [
+          "Mee",
+          "Tee"
+        ]
+      },
+      {
+        "index": "06",
+        "words": [
+          "Hata",
+          "Haya"
+        ]
+      },
+      {
+        "index": "07",
+        "words": [
+          "Mas",
+          "Mat"
+        ]
+      },
+      {
+        "index": "08",
+        "words": [
+          "Bana",
+          "Bada"
+        ]
+      },
+      {
+        "index": "09",
+        "words": [
+          "Paan",
+          "Paas"
+        ]
+      },
+      {
+        "index": "10",
+        "words": [
+          "Koopa",
+          "Koosha"
+        ]
+      }
+    ],
+    "tokens": [
+      "Pacha",
+      "Kacha",
+      "Ham",
+      "Sam",
+      "Boola",
+      "Koola",
+      "Maala",
+      "Baala",
+      "Mee",
+      "Tee",
+      "Hata",
+      "Haya",
+      "Mas",
+      "Mat",
+      "Bana",
+      "Bada",
+      "Paan",
+      "Paas",
+      "Koopa",
+      "Koosha"
+    ]
+  },
+  "ක්‍රියාකාරකම-06": {
+    "items": [
+      {
+        "index": "01",
+        "words": [
+          "Sal",
+          "Hal"
+        ]
+      },
+      {
+        "index": "02",
+        "words": [
+          "Sata",
+          "Hata"
+        ]
+      },
+      {
+        "index": "03",
+        "words": [
+          "Saaya",
+          "Yaaya"
+        ]
+      },
+      {
+        "index": "04",
+        "words": [
+          "Sihiya",
+          "Pihiya"
+        ]
+      },
+      {
+        "index": "05",
+        "words": [
+          "Sita",
+          "Lita"
+        ]
+      },
+      {
+        "index": "06",
+        "words": [
+          "Maalaya",
+          "Kaalaya"
+        ]
+      },
+      {
+        "index": "07",
+        "words": [
+          "Hiina",
+          "Bhiiya"
+        ]
+      },
+      {
+        "index": "08",
+        "words": [
+          "Maasa",
+          "Maara"
+        ]
+      },
+      {
+        "index": "09",
+        "words": [
+          "Kaha",
+          "Kada"
+        ]
+      },
+      {
+        "index": "10",
+        "words": [
+          "Gama",
+          "Gala"
+        ]
+      }
+    ],
+    "tokens": [
+      "Sal",
+      "Hal",
+      "Sata",
+      "Hata",
+      "Saaya",
+      "Yaaya",
+      "Sihiya",
+      "Pihiya",
+      "Sita",
+      "Lita",
+      "Maalaya",
+      "Kaalaya",
+      "Hiina",
+      "Bhiiya",
+      "Maasa",
+      "Maara",
+      "Kaha",
+      "Kada",
+      "Gama",
+      "Gala"
+    ]
+  },
+  "ක්‍රියාකාරකම-07": {
+    "items": [
+      {
+        "index": "01",
+        "words": [
+          "Kada",
+          "Vada"
+        ]
+      },
+      {
+        "index": "02",
+        "words": [
+          "Vaැli",
+          "Raැli"
+        ]
+      },
+      {
+        "index": "03",
+        "words": [
+          "Bata",
+          "Kata"
+        ]
+      },
+      {
+        "index": "04",
+        "words": [
+          "Pas",
+          "Gas"
+        ]
+      },
+      {
+        "index": "05",
+        "words": [
+          "Teda",
+          "Heda"
+        ]
+      },
+      {
+        "index": "06",
+        "words": [
+          "Pahana",
+          "Vahana"
+        ]
+      },
+      {
+        "index": "07",
+        "words": [
+          "Kanavaa",
+          "Yanavaa"
+        ]
+      },
+      {
+        "index": "08",
+        "words": [
+          "Yatura",
+          "Katura"
+        ]
+      },
+      {
+        "index": "09",
+        "words": [
+          "Kalaya",
+          "Balaya"
+        ]
+      },
+      {
+        "index": "10",
+        "words": [
+          "Lassana",
+          "Vassana"
+        ]
+      }
+    ],
+    "tokens": [
+      "Kada",
+      "Vada",
+      "Vaැli",
+      "Raැli",
+      "Bata",
+      "Kata",
+      "Pas",
+      "Gas",
+      "Teda",
+      "Heda",
+      "Pahana",
+      "Vahana",
+      "Kanavaa",
+      "Yanavaa",
+      "Yatura",
+      "Katura",
+      "Kalaya",
+      "Balaya",
+      "Lassana",
+      "Vassana"
+    ]
+  }
+}
