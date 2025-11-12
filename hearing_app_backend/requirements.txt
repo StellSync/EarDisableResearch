@@ -1,7 +1,0 @@
-fastapi
-uvicorn[standard]
-motor
-pydantic
-python-dotenv
-unidecode
-mongomock
